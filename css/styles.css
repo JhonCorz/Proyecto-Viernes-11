@@ -1,0 +1,428 @@
+/* General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    background-image: url('../imagenes/fondo.jpg');
+}
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #d299f6;
+}
+header a:hover{
+    color: #333;
+   }
+section h3:hover{
+    color: #8605c1;
+}
+
+
+.logo img {
+    height: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Servicios */
+#servicios {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.servicio {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.servicio img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.servicio:hover img {
+    transform: scale(1.1); /* Agranda la imagen al pasar el mouse */
+}
+
+.servicio h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+section {
+    background-image: url('../imagenes/fondo.jpg');
+    padding: 0.1%;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #0e186e;
+    margin-bottom: 20px;
+}
+
+ p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+/* Footer */
+footer {
+    background-color: #d299f6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    }
+
+footer p {
+    margin: 0;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+ color: #333;
+}
+footer p:hover{
+    color: #333;
+   }
+/* Sección Nuestro Equipo */
+#equipo {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#equipo h2 {
+    font-size: 2em;
+    color: #394797;
+    margin-bottom: 40px;
+}
+
+.equipo-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.miembro {
+    text-align: center;
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+.miembro img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.miembro:hover img {
+    transform: scale(1.1); /* Agranda la imagen al pasar el mouse */
+}
+
+.miembro h3 {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #333;
+}
+/* Estilo de las secciones de perfil */
+#perfil {
+    background-image: url('../imagenes/fondo.jpg');
+
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#perfil h2 {
+    text-align: center;
+    color: #333;
+}
+
+#perfil img {
+    display: block;
+    margin: 20px auto;
+    width: 200px; /* Ajustar tamaño de las imágenes de los perfiles */
+    height: auto;
+    border-radius: 50%; /* Imagen redonda */
+    transition: transform 0.2s ease; /* Transición para el efecto hover */
+}
+
+#perfil img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+}
+/* Sección de Trabajos Realizados */
+#trabajos {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#trabajos h2 {
+    text-align: center;
+    color: #333;
+}
+
+#trabajos p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.trabajos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.trabajo {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.trabajo:hover {
+    transform: translateY(-5px); /* Eleva el trabajo al pasar el mouse */
+}
+
+.trabajo img {
+    width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+    height: auto;
+    border-radius: 5px;
+}
+
+.trabajo h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.trabajo p {
+    font-size: 14px;
+    color: #666;
+}
+/* Estilos para la sección de contacto */
+#contacto {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contacto h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contacto p {
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Centrar el botón */
+.button-container {
+    text-align: center; /* Centra el contenido en el eje horizontal */
+}
+
+.button-container {
+    margin-top: 20px; 
+    text-align: center;
+}
+button {
+    position: relative;
+    top: 70%;
+    color: #f0f0f0;
+    transform: translateY(-50%);
+    background-color: #394797;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+    z-index: 10; /* Asegurarse de que los botones estén por encima de las imágenes */
+  }
+  
+
+button:hover {
+    background-color: #2492ff;
+}
+
+/* carrusel */
+
+.carrusel {
+    position: relative;
+    width: 100%; /* Ancho completo */
+    overflow: hidden;
+  }
+  
+  .carrusel-imagenes {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carrusel-imagenes img {
+    width: 100vw; /* Cada imagen ocupa todo el ancho de la ventana */
+    height: auto; /* Mantener la proporción de las imágenes */
+  }
+  
+ 
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+
+  /* fin carrusel */
+
+
+  
+  /* logo */
+  .h11 {
+    background: url(https://th.bing.com/th/id/OIP.tj9Cw8wk8iiy7iJxj_KKVAHaQd?rs=1&pid=ImgDetMain);
+    -webkit-background-clip: text;
+    background-size: contain;
+    width: 100%;
+    text-align: center;
+    color: transparent;
+    font-weight: 900;
+
+    
+  }
+  .h11::before {
+    content: attr(data-heading);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    mix-blend-mode: screen;
+    -webkit-animation: shine 1s infinite;
+            animation: shine 1s infinite;
+    background-size: 150%;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2), -2px 2px 10px rgba(0, 0, 0, 0.2), -2px -2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  @-webkit-keyframes shine {
+    0% {
+      background-position: -100%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: -100%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
+  /* Not needed for demo */
+  @font-face {
+    font-family: 'frozen';
+    src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Ice%20kingdom%20-%20Bold%20-%20Por%20Kustren.woff");
+  }
+  html, body {
+    height: 100%;
+  }
+  
+  .h11 {
+    top: 32%;
+    left: 49%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 10vw;
+    margin: 0;
+    font-family: 'frozen', serif;
+    font-weight: 800;
+  }
+
+  /*Fin titulo version 2 inicio */
+
+/*pato */
+.pato{
+  height: 28%;
+}
+  #patoizq{
+margin-left: 72%;
+  
+    
+    
+  }
+ 
+  
+
+  #patodere{
+    display: inline-block;
+    margin-left: 5%;
+  
+  }
+/*fin pato*/

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="icon" href="./imagenes/logo-pequeño.png">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <!-- Encabezado con Logo y Menú -->
+    <header>
+        <div class="logo">
+            <img src="./imagenes/logo-grande.png" alt="Logo" id="logo-img"> <!-- Aquí va la imagen de tu logo -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#quienesSomos">Quiénes Somos</a></li>
+                <li><a href="./menu/equipo.html">Nuestro Equipo</a></li>
+                <li><a href="./menu/trabajos.html">Nuestros Trabajos Realizados</a></li>
+                <li><a href="./menu/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<!--Fin carrusel-->
+        <!--Pato dere-->
+        <img id ="patodere" class="pato" src="imagenes/bola.gif" alt="" width="100px" height="200px">
+        <!--Fin pato dere-->
+        
+        <!--Titulo-->
+        <h1 class="h11" contenteditable data-heading="YouSoft">YouSoft</h1>
+        <!--Fin titulo-->
+        
+        <!--Pato izq-->
+         <img id="patoizq" class="pato" src="imagenes/bola.gif" alt="" width="100px" height="200px">
+        <!--Fin pato izq-->
+
+<!--Carrusel-->
+<div class="carrusel" >
+    <div class="carrusel-imagenes">
+        <img src="imagenes/carrusel new.jpeg" alt="Imagen 1">
+        <img src="imagenes/carrusel2 new.jpeg" alt="Imagen 2">
+        <img src="imagenes/fondo 3 new.jpeg" alt="Imagen 3">
+    </div>
+    <button class="prev" onclick="cambiarImagen(-1)">&#10094;</button>
+    <button class="next" onclick="cambiarImagen(1)">&#10095;</button>
+</div>
+
+
+    <!-- Sección Quiénes Somos -->
+    <section id="quienesSomos">
+        <h2>Quiénes Somos</h2>
+
+
+
+        <p>Somos una empresa dedicada al desarrollo de soluciones de software personalizadas para nuestros clientes. Con un equipo altamente capacitado y años de experiencia en el sector, nos especializamos en crear productos que se ajusten a las necesidades de cada negocio, ayudándoles a alcanzar sus objetivos con tecnología innovadora.</p>
+        <p>Nuestra misión es brindar soluciones tecnológicas de alta calidad, mejorando la eficiencia y productividad de nuestros clientes. Valoramos la integridad, la innovación y el trabajo en equipo, lo que nos permite crecer y mejorar continuamente.</p>
+    <!-- Sección de Servicios con Efecto Hover -->
+    <section id="servicios">
+        
+        <div class="servicio" id="desarrollo">
+            <img src="./imagenes/image1.jpg" alt="Desarrollo de Software">
+            <h3>Desarrollo de Software</h3>
+        </div>
+        <div class="servicio" id="soporte">
+            <img src="./imagenes/image2.jpg" alt="Soporte de Software">
+            <h3>Soporte de Software</h3>
+        </div>
+        <div class="servicio" id="diseno">
+            <img src="./imagenes/image3.webp" alt="Diseño de Software">
+            <h3>Diseño de Software</h3>
+        </div>
+    </section>
+    </section>
+
+    
+
+    <!-- Footer Estático -->
+    <footer>
+        <p>© 2024 <img src="./imagenes/logo-pequeño.png" alt=""> </p>
+            <a href="../politicas/politicas_privacidad.html">Política de Privacidad</a> | 
+            <a href="../politicas/terminos_servicios.html">Términos de Servicio</a> | 
+            <a href="../politicas/politica_seguridad.html">Política de Seguridad</a> | 
+            <a href="../politicas/politica_cookies.html">Política de Cookies</a> 
+    
+    </footer>
+
+    <script src="js/js.js"></script>
+</body>
+</html>
