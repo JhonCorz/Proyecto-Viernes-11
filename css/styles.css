@@ -426,3 +426,20 @@ margin-left: 72%;
   
   }
 /*fin pato*/
+#ulUser{
+    
+    margin-right: 0%;
+}
+
+#RegGene{
+    text-align: center;
+}
+
+.checkboxReg{
+   width: 2%;
+    margin: 3px 3px 0px 5px;
+}
+
+.texRegU{
+    display: inline;
+}
