@@ -13,23 +13,36 @@ body {
 html {
     scroll-behavior: smooth;
 }
-
 /* Header */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #d299f6;
+    background-color: #6a5acd; /* Un color de fondo más suave */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
     flex-wrap: wrap; /* Asegura que no se rompa el diseño en pantallas pequeñas */
+    transition: background-color 0.3s; /* Transición suave para el fondo */
+}
+
+header:hover {
+    background-color: #5a4bcf; /* Cambio de color de fondo al pasar el mouse */
 }
 
 header a:hover {
-    color: #333;
+    color: #f1f1f1; /* Cambio de color al pasar el mouse */
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo sutil al pasar el mouse */
+    padding: 5px 10px; /* Espaciado alrededor del enlace */
+    border-radius: 5px; /* Bordes redondeados */
 }
 
 .logo img {
     height: 60px;
+    transition: transform 0.3s; /* Transición suave para el logo */
+}
+
+.logo img:hover {
+    transform: scale(1.1); /* Efecto de aumento en el logo al pasar el mouse */
 }
 
 nav ul {
@@ -41,18 +54,42 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 20px;
+    margin-right: 30px; /* Aumenta el margen entre los elementos */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Quitar margen en el último elemento */
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s; /* Transición suave para el color */
 }
 
 nav ul li a:hover {
-    color: #333;
+    color: #f1f1f1; /* Cambio de color al pasar el mouse */
 }
+
+/* Responsividad */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: flex-start; /* Alinear elementos al inicio */
+    }
+
+    nav ul {
+        flex-direction: column; /* Colocar elementos de navegación en columna */
+        width: 100%; /* Ancho completo para la navegación */
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Espaciado vertical entre los elementos */
+        margin-right: 0; /* Quitar margen derecho en elementos en columna */
+    }
+}
+
 
 /* Servicios */
 #servicios {
@@ -131,30 +168,50 @@ p {
     line-height: 1.6;
     color: #333;
 }
-
-
-
 /* Footer */
 footer {
-    background-color: #d299f6;
+    background-color: #6a5acd; /* Un color de fondo más suave y atractivo */
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 30px 20px; /* Mayor espaciado para un mejor diseño */
     width: 100%;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Sombra superior para dar profundidad */
+    position: relative; /* Asegura que el footer se mantenga en su lugar */
+    transition: background-color 0.3s; /* Transición suave para el fondo */
+}
+
+footer:hover {
+    background-color: #5a4bcf; /* Cambio de color al pasar el mouse */
 }
 
 footer p {
     margin: 0;
+    font-size: 1rem; /* Ajustar tamaño de fuente para mejor legibilidad */
 }
 
 footer a {
     color: white;
     text-decoration: none;
+    font-weight: bold; /* Negrita para destacar enlaces */
+    transition: color 0.3s; /* Transición suave para el color */
 }
 
-footer a:hover,
-footer p:hover {
-    color: #333;
+footer a:hover {
+    color: #f1f1f1; /* Cambio de color al pasar el mouse */
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo sutil al pasar el mouse */
+    padding: 5px 10px; /* Espaciado alrededor del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    footer {
+        padding: 20px 10px; /* Reducir espaciado en pantallas más pequeñas */
+    }
+
+    footer p {
+        font-size: 0.9rem; /* Reducir tamaño de fuente para móviles */
+    }
 }
 
 /* Sección Nuestro Equipo */
