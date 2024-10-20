@@ -200,6 +200,60 @@ footer p:hover {
     font-size: 1.2em;
     color: #333;
 }
+/* Estilos generales para la sección de perfil */
+#perfil {
+    background-color: #f9f9f9; /* Color de fondo claro */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 800px; /* Ancho máximo para la sección */
+    margin: 20px auto; /* Centrar la sección en la página */
+    font-family: Arial, sans-serif; /* Fuente general */
+}
+
+/* Títulos dentro de la sección de perfil */
+#perfil h2 {
+    font-size: 24px; /* Tamaño del texto del título */
+    margin-bottom: 15px; /* Espaciado inferior */
+    color: #394797; /* Color del texto del título */
+}
+
+/* Parrafos dentro de la sección de perfil */
+#perfil p {
+    font-size: 16px; /* Tamaño del texto de los párrafos */
+    line-height: 1.5; /* Espaciado entre líneas */
+    color: #333; /* Color del texto */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+/* Estilo para imágenes de perfil */
+#perfil img {
+    max-width: 150px; /* Ancho máximo para la imagen */
+    border-radius: 50%; /* Hacer la imagen circular */
+    margin-right: 15px; /* Espaciado a la derecha */
+    border: 3px solid #394797; /* Bordes de la imagen */
+}
+
+/* Contenedor para el contenido del perfil */
+.perfil-contenedor {
+    display: flex; /* Usar flexbox para el diseño */
+    align-items: center; /* Centrar verticalmente */
+}
+
+/* Botones dentro de la sección de perfil */
+#perfil button {
+    background-color: #394797; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+#perfil button:hover {
+    background-color: #2492ff; /* Color de fondo al pasar el mouse */
+}
 
 /* Sección de Trabajos Realizados */
 #trabajos {
