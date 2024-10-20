@@ -367,6 +367,7 @@ button:hover {
 .h11 {
     background: url(https://th.bing.com/th/id/OIP.tj9Cw8wk8iiy7iJxj_KKVAHaQd?rs=1&pid=ImgDetMain);
     -webkit-background-clip: text;
+    position: static;
     background-size: contain;
     text-align: center;
     color: transparent; /* El texto original se vuelve transparente */
@@ -413,6 +414,7 @@ button:hover {
 
 /* Pato */
 .pato {
+    position: static;
     height: 150px; /* Ajustar según se necesite */
     max-width: 100px; /* Asegurar que no se desborde */
     object-fit: contain; /* Mantener proporciones */
