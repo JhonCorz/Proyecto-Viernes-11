@@ -410,7 +410,7 @@ button:hover {
 
 /* Contenedor general para los patos y el título */
 .container-patos-titulo {
-    display: flex;
+    display: flex; /* Usar flexbox para alinear los elementos */
     align-items: center; /* Alinear verticalmente al centro */
     justify-content: space-between; /* Espacio entre patos y título */
     max-width: 80%; /* Ajustar según sea necesario */
@@ -421,7 +421,6 @@ button:hover {
 .h11 {
     background: url(https://th.bing.com/th/id/OIP.tj9Cw8wk8iiy7iJxj_KKVAHaQd?rs=1&pid=ImgDetMain);
     -webkit-background-clip: text;
-    position: static;
     background-size: contain;
     text-align: center;
     color: transparent; /* El texto original se vuelve transparente */
@@ -430,6 +429,9 @@ button:hover {
     font-family: 'frozen', serif;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
     position: relative; /* Para poder posicionar el pseudo-elemento correctamente */
+    flex: 1; /* Permitir que el título ocupe el espacio disponible */
+    text-align: center; /* Alinear texto al centro */
+    margin: 0 20px; /* Espacio horizontal alrededor del título */
 }
 
 /* Animación del brillo */
@@ -450,9 +452,6 @@ button:hover {
     -webkit-background-clip: text;
     color: transparent; /* Hacer que el texto del pseudo-elemento también sea transparente */
     animation: shine 1.5s infinite; /* Animación sincronizada */
-    display: flex; /* Para que el texto se centre */
-    align-items: center; /* Centrar verticalmente */
-    justify-content: center; /* Centrar horizontalmente */
 }
 
 /* Animación de brillo */
@@ -465,61 +464,39 @@ button:hover {
     }
 }
 
-
 /* Pato */
 .pato {
-    position: static;
     height: 150px; /* Ajustar según se necesite */
     max-width: 100px; /* Asegurar que no se desborde */
     object-fit: contain; /* Mantener proporciones */
 }
 
-/* Animación de brillo */
-@keyframes shine {
-    0% {
-        background-position: -100%;
-    }
-    100% {
-        background-position: 100%;
-    }
-}
-
-
 /* Responsividad */
 @media (max-width: 768px) {
     .container-patos-titulo {
-        flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-between; /* Espacio entre patos y título */
     }
 
     .pato {
-        height: 100px;
+        height: 100px; /* Ajustar el tamaño de los patos */
     }
 
     .h11 {
-        font-size: 12vw;
+        font-size: 12vw; /* Ajustar el tamaño del título */
     }
 }
 
 @media (max-width: 480px) {
     .container-patos-titulo {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    #patoizq, #patodere {
-        flex: 1;
-        text-align: center;
+        flex-direction: row; /* Mantener fila en pantallas pequeñas */
+        justify-content: space-around; /* Distribuir el espacio alrededor */
+        align-items: center; /* Centrar elementos verticalmente */
     }
 
     .h11 {
-        font-size: 10vw;
-        order: 1;
+        font-size: 10vw; /* Tamaño del texto en pantallas pequeñas */
     }
 }
-
-
 
 /* Lista de usuario */
 #ulUser {
