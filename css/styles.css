@@ -6,25 +6,27 @@ body {
     background-color: #f5f5f5;
     color: #333;
     background-image: url('../imagenes/fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 html {
     scroll-behavior: smooth;
 }
 
+/* Header */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: #d299f6;
-}
-header a:hover{
-    color: #333;
-   }
-section h3:hover{
-    color: #8605c1;
+    flex-wrap: wrap; /* Asegura que no se rompa el diseño en pantallas pequeñas */
 }
 
+header a:hover {
+    color: #333;
+}
 
 .logo img {
     height: 60px;
@@ -35,6 +37,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap; /* Hace que los elementos se adapten a la línea */
 }
 
 nav ul li {
@@ -47,10 +50,15 @@ nav ul li a {
     font-weight: bold;
 }
 
+nav ul li a:hover {
+    color: #333;
+}
+
 /* Servicios */
 #servicios {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap; /* Adapta los elementos en varias filas */
     padding: 40px;
     background-color: #fff;
 }
@@ -58,10 +66,12 @@ nav ul li a {
 .servicio {
     text-align: center;
     transition: transform 0.3s ease;
+    margin: 10px;
+    width: 300px; /* Establece un ancho fijo para cada servicio */
 }
 
 .servicio img {
-    width: 300px;
+    width: 100%; /* Imagenes siempre del tamaño del contenedor */
     height: 200px;
     object-fit: cover;
     transition: transform 0.3s ease;
@@ -78,22 +88,24 @@ nav ul li a {
 
 section {
     background-image: url('../imagenes/fondo.jpg');
-    padding: 0.1%;
+    padding: 10px;
     background-color: #f0f0f0;
     text-align: center;
 }
 
+/* Títulos y párrafos */
 h2 {
     font-size: 2em;
     color: #0e186e;
     margin-bottom: 20px;
 }
 
- p {
+p {
     font-size: 1.1em;
     line-height: 1.6;
     color: #333;
 }
+
 
 
 /* Footer */
@@ -102,29 +114,26 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    position: relative;
-    bottom: 0;
     width: 100%;
-    }
+}
 
 footer p {
     margin: 0;
-    color: white;
 }
 
 footer a {
     color: white;
     text-decoration: none;
 }
-footer a:hover{
- color: #333;
-}
-footer p:hover{
+
+footer a:hover,
+footer p:hover {
     color: #333;
-   }
+}
+
 /* Sección Nuestro Equipo */
 #equipo {
-    padding: 50px;
+    padding: 40px 20px;
     background-color: #fff;
     text-align: center;
 }
@@ -132,24 +141,25 @@ footer p:hover{
 #equipo h2 {
     font-size: 2em;
     color: #394797;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .equipo-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    align-items: center;
 }
 
 .miembro {
-    text-align: center;
-    margin: 20px;
+    margin: 10px;
     transition: transform 0.3s ease;
+    text-align: center;
 }
 
 .miembro img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
     transition: transform 0.3s ease;
@@ -160,43 +170,16 @@ footer p:hover{
 }
 
 .miembro h3 {
-    margin-top: 15px;
-    font-size: 18px;
-    color: #333;
-}
-/* Estilo de las secciones de perfil */
-#perfil {
-    background-image: url('../imagenes/fondo.jpg');
-
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-#perfil h2 {
-    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
     color: #333;
 }
 
-#perfil img {
-    display: block;
-    margin: 20px auto;
-    width: 200px; /* Ajustar tamaño de las imágenes de los perfiles */
-    height: auto;
-    border-radius: 50%; /* Imagen redonda */
-    transition: transform 0.2s ease; /* Transición para el efecto hover */
-}
-
-#perfil img:hover {
-    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
-}
 /* Sección de Trabajos Realizados */
 #trabajos {
     max-width: 1200px;
     margin: 20px auto;
-    padding: 20px;
+    padding: 30px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -204,18 +187,20 @@ footer p:hover{
 
 #trabajos h2 {
     text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
     color: #333;
 }
 
 #trabajos p {
     text-align: center;
-    margin-bottom: 20px;
     font-size: 16px;
+    margin-bottom: 20px;
 }
 
 .trabajos-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
 
@@ -224,7 +209,7 @@ footer p:hover{
     border-radius: 8px;
     padding: 15px;
     text-align: center;
-    transition: transform 0.2s;
+    transition: transform 0.3s ease;
 }
 
 .trabajo:hover {
@@ -232,36 +217,39 @@ footer p:hover{
 }
 
 .trabajo img {
-    width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+    width: 100%; 
     height: auto;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .trabajo h3 {
-    margin: 10px 0;
-    font-size: 18px;
+    margin-top: 10px;
+    font-size: 1.4em;
 }
 
 .trabajo p {
     font-size: 14px;
     color: #666;
 }
-/* Estilos para la sección de contacto */
+
+/* Sección de Contacto */
 #contacto {
-    padding: 40px;
+    padding: 40px 20px;
     background-color: #fff;
     text-align: center;
 }
 
 #contacto h2 {
-    font-size: 24px;
+    font-size: 2em;
     margin-bottom: 20px;
 }
 
 #contacto p {
+    font-size: 1.1em;
     margin-bottom: 30px;
 }
 
+/* Formulario */
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -281,169 +269,196 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 /* Centrar el botón */
 .button-container {
-    text-align: center; /* Centra el contenido en el eje horizontal */
+    text-align: center;
+    margin-top: 20px;
 }
 
-.button-container {
-    margin-top: 20px; 
-    text-align: center;
-}
 button {
-    position: relative;
-    top: 70%;
-    color: #f0f0f0;
-    transform: translateY(-50%);
     background-color: #394797;
+    color: #f0f0f0;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     padding: 10px 15px;
-    z-index: 10; /* Asegurarse de que los botones estén por encima de las imágenes */
-  }
-  
+    transition: background-color 0.3s ease;
+}
 
 button:hover {
     background-color: #2492ff;
 }
 
-/* carrusel */
-
+/* Carrusel */
 .carrusel {
     position: relative;
     width: 100%; /* Ancho completo */
     overflow: hidden;
-  }
-  
-  .carrusel-imagenes {
+}
+
+.carrusel-imagenes {
     display: flex;
     transition: transform 0.5s ease;
-  }
-  
-  .carrusel-imagenes img {
+}
+
+.carrusel-imagenes img {
     width: 100vw; /* Cada imagen ocupa todo el ancho de la ventana */
     height: auto; /* Mantener la proporción de las imágenes */
-  }
-  
- 
-  .prev {
+}
+
+/* Botones del carrusel */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
     left: 10px;
-  }
-  
-  .next {
+}
+
+.next {
     right: 10px;
-  }
-
-  /* fin carrusel */
+}
 
 
-  
-  /* logo */
-  .h11 {
+/* Contenedor general para los patos y el título */
+.container-patos-titulo {
+    display: flex;
+    align-items: center; /* Alinear verticalmente al centro */
+    justify-content: space-between; /* Espacio entre patos y título */
+    max-width: 80%; /* Ajustar según sea necesario */
+    margin: 50px auto; /* Centrar el contenedor en la página */
+}
+
+/* Logo animado */
+.h11 {
     background: url(https://th.bing.com/th/id/OIP.tj9Cw8wk8iiy7iJxj_KKVAHaQd?rs=1&pid=ImgDetMain);
     -webkit-background-clip: text;
     background-size: contain;
-    width: 100%;
     text-align: center;
-    color: transparent;
+    color: transparent; /* El texto original se vuelve transparente */
     font-weight: 900;
-
-    
-  }
-  .h11::before {
-    content: attr(data-heading);
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0) 100%);
-    -webkit-background-clip: text;
-    color: transparent;
-    mix-blend-mode: screen;
-    -webkit-animation: shine 1s infinite;
-            animation: shine 1s infinite;
-    background-size: 150%;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2), -2px 2px 10px rgba(0, 0, 0, 0.2), -2px -2px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  @-webkit-keyframes shine {
-    0% {
-      background-position: -100%;
-    }
-    100% {
-      background-position: 100%;
-    }
-  }
-  
-  @keyframes shine {
-    0% {
-      background-position: -100%;
-    }
-    100% {
-      background-position: 100%;
-    }
-  }
-  /* Not needed for demo */
-  @font-face {
-    font-family: 'frozen';
-    src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Ice%20kingdom%20-%20Bold%20-%20Por%20Kustren.woff");
-  }
-  html, body {
-    height: 100%;
-  }
-  
-  .h11 {
-    top: 32%;
-    left: 49%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    position: absolute;
     font-size: 10vw;
-    margin: 0;
     font-family: 'frozen', serif;
-    font-weight: 800;
-  }
-
-  /*Fin titulo version 2 inicio */
-
-/*pato */
-.pato{
-  height: 28%;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    position: relative; /* Para poder posicionar el pseudo-elemento correctamente */
 }
-  #patoizq{
-margin-left: 72%;
-  
-    
-    
-  }
- 
-  
 
-  #patodere{
-    display: inline-block;
-    margin-left: 5%;
-  
-  }
-/*fin pato*/
-#ulUser{
-    
+/* Animación del brillo */
+.h11::before {
+    content: attr(data-heading); /* Tomar el texto del atributo data-heading */
+    position: absolute; /* Posicionar absolutamente dentro del h1 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0) 45%,
+        rgba(255, 255, 255, 0.8) 50%,
+        rgba(255, 255, 255, 0) 55%
+    );
+    background-size: 150%; /* Mayor tamaño para que la animación se vea suave */
+    -webkit-background-clip: text;
+    color: transparent; /* Hacer que el texto del pseudo-elemento también sea transparente */
+    animation: shine 1.5s infinite; /* Animación sincronizada */
+    display: flex; /* Para que el texto se centre */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+}
+
+/* Animación de brillo */
+@keyframes shine {
+    0% {
+        background-position: -100%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+
+/* Pato */
+.pato {
+    height: 150px; /* Ajustar según se necesite */
+    max-width: 100px; /* Asegurar que no se desborde */
+    object-fit: contain; /* Mantener proporciones */
+}
+
+/* Animación de brillo */
+@keyframes shine {
+    0% {
+        background-position: -100%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .container-patos-titulo {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .pato {
+        height: 100px;
+    }
+
+    .h11 {
+        font-size: 12vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-patos-titulo {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #patoizq, #patodere {
+        flex: 1;
+        text-align: center;
+    }
+
+    .h11 {
+        font-size: 10vw;
+        order: 1;
+    }
+}
+
+
+
+/* Lista de usuario */
+#ulUser {
     margin-right: 0%;
 }
 
-#RegGene{
+#RegGene {
     text-align: center;
 }
 
-.checkboxReg{
-   width: 2%;
+/* Checkbox */
+.checkboxReg {
+    width: 2%;
     margin: 3px 3px 0px 5px;
 }
 
-.texRegU{
+.texRegU {
     display: inline;
 }
-/* Estilos del contenedor del selector de color */
+
+/* Selector de color */
 .color-picker-container {
     display: flex;
     align-items: center;
@@ -454,7 +469,6 @@ margin-left: 72%;
     font-weight: bold;
 }
 
-/* Estilos del input de color */
 #colorPicker {
     width: 50px;
     height: 50px;
@@ -468,20 +482,33 @@ margin-left: 72%;
 #colorPicker:hover {
     transform: scale(1.1);
 }
-/* Estilos para el modal */
+
+/* Ajuste responsivo del selector de color */
+@media (max-width: 768px) {
+    .color-picker-container {
+        flex-direction: column; /* Apila los elementos en pantallas pequeñas */
+        align-items: flex-start;
+    }
+
+    #colorPicker {
+        width: 40px;
+        height: 40px; /* Tamaño más pequeño en móviles */
+    }
+}
+
+/* Modal */
 .modal {
     display: none; /* Oculto por defecto */
     position: fixed;
-    z-index: 1000; /* Asegura que esté en la capa más alta */
+    z-index: 1000;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
-    pointer-events: auto; /* Habilita eventos solo en el modal */
 }
 
-/* Evita el desplazamiento cuando el modal está abierto */
+/* Evitar desplazamiento cuando el modal está abierto */
 body.modal-abierto {
     overflow: hidden;
 }
@@ -497,7 +524,7 @@ body.modal-abierto {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     position: relative;
-    z-index: 1001; /* Asegura que el contenido esté por encima */
+    z-index: 1001;
 }
 
 /* Botón de cierre */
@@ -515,49 +542,16 @@ body.modal-abierto {
 .close-button:hover {
     color: black;
 }
-/* Pantallas pequeñas (móviles) */
+
+/* Ajustes del modal para pantallas pequeñas */
 @media (max-width: 600px) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
+    .modal-content {
+        margin: 30% auto; /* Ajusta la posición vertical */
+        width: 90%; /* Aumenta el ancho en móviles */
     }
 
-    nav ul {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    nav ul li {
-        margin: 5px 0;
-    }
-
-    .button-container {
-        flex-direction: column;
-    }
-
-    textarea, input {
-        width: 100%;
+    .close-button {
+        font-size: 20px; /* Reduce el tamaño del botón en móviles */
     }
 }
 
-/* Pantallas medianas (tablets) */
-@media (min-width: 601px) and (max-width: 1024px) {
-    nav ul {
-        justify-content: space-around;
-    }
-
-    header img {
-        max-width: 120px;
-    }
-}
-
-/* Pantallas grandes (escritorio) */
-@media (min-width: 1025px) {
-    nav ul {
-        justify-content: flex-end;
-    }
-
-    .button-container {
-        width: 50%;
-    }
-}
