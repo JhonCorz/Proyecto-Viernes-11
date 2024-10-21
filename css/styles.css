@@ -13,12 +13,12 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
 /* Header */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     padding: 20px;
     background-color: #6a5acd; /* Un color de fondo más suave */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
@@ -91,12 +91,7 @@ nav ul li a:hover {
     }
 }
 
-#quienesSomos{
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
+
 /* Servicios */
 #servicios {
     max-width: 1200px;
@@ -122,7 +117,6 @@ nav ul li a:hover {
 
 .servicios-container {
     display: grid;
-    width: 100%;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
@@ -155,11 +149,9 @@ nav ul li a:hover {
     color: #666;
 }
 
-
 section {
     background-image: url('../imagenes/fondo.jpg');
     padding: 10px;
-    width: 100%;
     background-color: #f0f0f0;
     text-align: center;
 }
@@ -176,6 +168,8 @@ p {
     line-height: 1.6;
     color: #333;
 }
+
+
 /* Footer */
 footer {
     background-color: #6a5acd; /* Un color de fondo más suave y atractivo */
@@ -222,6 +216,7 @@ footer a:hover {
     }
 }
 
+
 /* Sección Nuestro Equipo */
 #equipo {
     padding: 40px 20px;
@@ -237,7 +232,6 @@ footer a:hover {
 
 .equipo-container {
     display: grid;
-    width: 100%;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     align-items: center;
@@ -265,61 +259,6 @@ footer a:hover {
     margin-top: 10px;
     font-size: 1.2em;
     color: #333;
-}
-/* Estilos generales para la sección de perfil */
-#perfil {
-    background-color: #f9f9f9; /* Color de fondo claro */
-    padding: 20px; /* Espaciado interno */
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    max-width: 800px; /* Ancho máximo para la sección */
-    margin: 20px auto; /* Centrar la sección en la página */
-    font-family: Arial, sans-serif; /* Fuente general */
-}
-
-/* Títulos dentro de la sección de perfil */
-#perfil h2 {
-    font-size: 24px; /* Tamaño del texto del título */
-    margin-bottom: 15px; /* Espaciado inferior */
-    color: #394797; /* Color del texto del título */
-}
-
-/* Parrafos dentro de la sección de perfil */
-#perfil p {
-    font-size: 16px; /* Tamaño del texto de los párrafos */
-    line-height: 1.5; /* Espaciado entre líneas */
-    color: #333; /* Color del texto */
-    margin-bottom: 10px; /* Espaciado inferior */
-}
-
-/* Estilo para imágenes de perfil */
-#perfil img {
-    max-width: 150px; /* Ancho máximo para la imagen */
-    border-radius: 50%; /* Hacer la imagen circular */
-    margin-right: 15px; /* Espaciado a la derecha */
-    border: 3px solid #394797; /* Bordes de la imagen */
-}
-
-/* Contenedor para el contenido del perfil */
-.perfil-contenedor {
-    display: flex; /* Usar flexbox para el diseño */
-     width: 100%;
-    align-items: center; /* Centrar verticalmente */
-}
-
-/* Botones dentro de la sección de perfil */
-#perfil button {
-    background-color: #394797; /* Color de fondo del botón */
-    color: white; /* Color del texto */
-    border: none; /* Sin bordes */
-    border-radius: 5px; /* Bordes redondeados */
-    padding: 10px 15px; /* Espaciado interno */
-    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
-    transition: background-color 0.3s; /* Transición suave para el hover */
-}
-
-#perfil button:hover {
-    background-color: #2492ff; /* Color de fondo al pasar el mouse */
 }
 
 /* Sección de Trabajos Realizados */
@@ -446,7 +385,6 @@ button:hover {
 
 .carrusel-imagenes {
     display: flex;
-    width: 100%;
     transition: transform 0.5s ease;
 }
 
@@ -474,7 +412,6 @@ button:hover {
 .next {
     right: 10px;
 }
-
 
 /* Contenedor general para los patos y el título */
 .container-patos-titulo {
@@ -565,6 +502,63 @@ button:hover {
         font-size: 10vw; /* Tamaño del texto en pantallas pequeñas */
     }
 }
+
+
+/* Estilos generales para la sección de perfil */
+#perfil {
+    background-color: #f9f9f9; /* Color de fondo claro */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 800px; /* Ancho máximo para la sección */
+    margin: 20px auto; /* Centrar la sección en la página */
+    font-family: Arial, sans-serif; /* Fuente general */
+}
+
+/* Títulos dentro de la sección de perfil */
+#perfil h2 {
+    font-size: 24px; /* Tamaño del texto del título */
+    margin-bottom: 15px; /* Espaciado inferior */
+    color: #394797; /* Color del texto del título */
+}
+
+/* Parrafos dentro de la sección de perfil */
+#perfil p {
+    font-size: 16px; /* Tamaño del texto de los párrafos */
+    line-height: 1.5; /* Espaciado entre líneas */
+    color: #333; /* Color del texto */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+/* Estilo para imágenes de perfil */
+#perfil img {
+    max-width: 150px; /* Ancho máximo para la imagen */
+    border-radius: 50%; /* Hacer la imagen circular */
+    margin-right: 15px; /* Espaciado a la derecha */
+    border: 3px solid #394797; /* Bordes de la imagen */
+}
+
+/* Contenedor para el contenido del perfil */
+.perfil-contenedor {
+    display: flex; /* Usar flexbox para el diseño */
+    align-items: center; /* Centrar verticalmente */
+}
+
+/* Botones dentro de la sección de perfil */
+#perfil button {
+    background-color: #394797; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+#perfil button:hover {
+    background-color: #2492ff; /* Color de fondo al pasar el mouse */
+}
+
 
 /* Lista de usuario */
 #ulUser {
