@@ -33,6 +33,7 @@ form.addEventListener('submit', (e) => {
     // Incrementar y guardar el contador de clics
     clics++;
     localStorage.setItem('clics', clics);
+    contadorClicks.textContent = `Número de clics en enviar: ${clics}`;
 
     // Obtener los datos ingresados
     const nombre = document.getElementById('nombre').value;
