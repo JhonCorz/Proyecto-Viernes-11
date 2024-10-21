@@ -389,7 +389,7 @@ button:hover {
 }
 
 .carrusel-imagenes img {
-    width: 100vw; /* Cada imagen ocupa todo el ancho de la ventana */
+    width: 100%; /* Cada imagen ocupa todo el ancho de la ventana */
     height: auto; /* Mantener la proporción de las imágenes */
 }
 
