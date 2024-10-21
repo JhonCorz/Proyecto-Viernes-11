@@ -231,6 +231,7 @@ footer a:hover {
 
 .equipo-container {
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     align-items: center;
@@ -296,6 +297,7 @@ footer a:hover {
 /* Contenedor para el contenido del perfil */
 .perfil-contenedor {
     display: flex; /* Usar flexbox para el diseño */
+     width: 100%;
     align-items: center; /* Centrar verticalmente */
 }
 
