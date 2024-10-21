@@ -154,6 +154,7 @@ nav ul li a:hover {
 section {
     background-image: url('../imagenes/fondo.jpg');
     padding: 10px;
+    width: 100%;
     background-color: #f0f0f0;
     text-align: center;
 }
