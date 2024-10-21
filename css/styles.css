@@ -173,16 +173,24 @@ p {
 }
 /* Footer */
 footer {
-        display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    background-color: #6a5acd; /* Un color de fondo más suave */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
-    flex-wrap: wrap; /* Asegura que no se rompa el diseño en pantallas pequeñas */
-    transition: background-color 0.3s; /* Transición suave para el fondo */
+        background-color: #6a5acd; /
+
+* Un color de fondo más suave y atractivo */
+
+176 color: white;
+
+177 text-align: center;
+
+178 padding: 30px 20px; /
+
+* Mayor espaciado para un mejor diseño */
+box-shadow: 0-2px 10px rgba(0, 0, 0, 0.1); /
+
+* Sombra superior para dar profundidad */
+
+181 position: relative; /
+
+* Asegura que el footer se mantenga en su lugar */
 }
 
 footer:hover {
