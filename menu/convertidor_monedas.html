@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Monedas</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../imagenes/logo-grande.png" alt="Logo" id="logo-img">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../index.html#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="equipo.html">Nuestro Equipo</a></li>
+                <li><a href="./trabajos.html">Nuestros Trabajos Realizados</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li id="ulUser"><a href="regUser.html"><img src="../imagenes/Usuario.png" alt="" width="35px" height="35px"></a></li>
+                <li><a href="convertidor_monedas.html"><img src="../imagenes/conversion.png" alt=""></a></li>
+            </ul>
+        </nav>
+        <input type="color" id="colorPicker" value="#ffffff">
+    </header>
+
+    <section id="converter">
+        <h2>Convertir Dólares a Otras Monedas</h2>
+        <form id="conversionForm">
+            <label for="amount">Cantidad en Dólares:</label>
+            <input type="number" id="amount" name="amount" required>
+
+            <label for="currency">Seleccionar moneda:</label>
+            <select id="currency" name="currency">
+                <option value="eur">Euros</option>
+                <option value="gbp">Libras Esterlinas</option>
+                <option value="jpy">Yenes</option>
+                <option value="cop">Peso Colombiano</option>
+                <!-- Agrega más monedas según necesites -->
+            </select>
+
+            <button type="submit">Convertir</button>
+        </form>
+
+        <div id="result-container">
+            <p id="result"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 <img src="../imagenes/logo-pequeño.png" alt=""> </p>
+        <a href="../politicas/politicas_privacidad.html">Política de Privacidad</a> |
+        <a href="../politicas/terminos_servicios.html">Términos de Servicio</a> |
+        <a href="../politicas/politica_seguridad.html">Política de Seguridad</a> |
+        <a href="../politicas/politica_cookies.html">Política de Cookies</a>
+    </footer>
+    <script src="../js/convertir.js"></script>
+    <script src="../js/colordefondo.js"></script>
+</body>
+
+</html>
