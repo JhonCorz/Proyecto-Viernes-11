@@ -1,0 +1,501 @@
+Order ID,Date,Service,Hours of Work,Hourly Rate,Total Price,Payment Method,Country,Client Name
+5896,2024-03-01,Desarrollo Web,17,117.28,1993.76,Credit Card,USA,Alec Thompson
+5429,2024-07-25,Consultoría en Diseño Web,17,91.28,1551.76,PayPal,Australia,Alan Charles
+9742,2024-09-13,Mantenimiento Web,21,132.4,2780.4,PayPal,Germany,Patrick Perez
+2288,2024-09-02,Consultoría en Diseño Web,35,66.54,2328.9,Bank Transfer,Australia,Anita Hansen
+3337,2024-02-13,Desarrollo Web,22,55.65,1224.3,PayPal,Germany,Austin Cox
+3705,2024-03-31,Diseño Gráfico y Branding,7,78.42,548.94,Bank Transfer,Germany,Joseph Barton
+7263,2024-08-10,Mantenimiento Web,14,82.97,1161.58,Credit Card,Australia,Michael Martinez
+2871,2024-09-02,Consultoría en Diseño Web,14,129.66,1815.24,Credit Card,UK,Jocelyn Brown
+1536,2024-04-17,Consultoría en Diseño Web,35,107.93,3777.55,Credit Card,Germany,Cheryl Davis
+5910,2024-07-15,Mantenimiento Web,11,146.21,1608.31,PayPal,Germany,Charles Jordan
+7476,2024-06-15,Mantenimiento Web,45,136.16,6127.2,Credit Card,Australia,Elaine Miller
+8382,2024-04-30,Desarrollo Web,15,126.57,1898.55,Bank Transfer,UK,Jack Sanchez
+4094,2024-05-03,Diseño Gráfico y Branding,23,58.1,1336.3,Credit Card,Canada,David James
+6011,2024-09-28,Diseño Gráfico y Branding,5,92.38,461.9,Credit Card,Canada,Julian Cisneros
+4864,2024-01-31,Mantenimiento Web,12,44.82,537.84,Bank Transfer,Canada,Shelby Ellison
+3883,2024-02-29,Consultoría en Diseño Web,42,97.29,4086.18,Bank Transfer,Australia,Michael Hernandez
+5795,2024-05-23,Consultoría en Diseño Web,11,129.52,1424.72,PayPal,USA,Justin Curry
+3908,2024-08-25,Mantenimiento Web,23,125.91,2895.93,PayPal,Germany,Tracy Howell
+9121,2024-03-08,Diseño Gráfico y Branding,8,117.91,943.28,PayPal,USA,Brian Chambers
+1608,2024-01-05,Diseño Gráfico y Branding,46,79.45,3654.7,PayPal,Australia,Ryan Richardson
+8702,2024-01-29,Consultoría en Diseño Web,37,85.01,3145.37,PayPal,USA,Dennis Cortez
+1004,2024-09-03,Desarrollo Web,43,45.74,1966.82,Bank Transfer,Australia,Calvin Melton
+1132,2024-08-10,Mantenimiento Web,40,83.14,3325.6,Bank Transfer,USA,Kyle Clark
+8986,2024-05-25,Mantenimiento Web,35,132.64,4642.4,Bank Transfer,Canada,Manuel Lang
+7634,2024-09-10,Diseño Gráfico y Branding,16,124.21,1987.36,Credit Card,Canada,Brianna Herrera
+5660,2024-02-27,Diseño Gráfico y Branding,43,82.75,3558.25,Bank Transfer,UK,Heidi Jones
+2408,2024-10-21,Mantenimiento Web,19,33.45,635.55,Credit Card,USA,Edward Harmon
+1908,2024-05-12,Desarrollo Web,29,79.48,2304.92,Credit Card,Germany,Danielle Campbell
+9410,2024-03-28,Consultoría en Diseño Web,44,30.14,1326.16,Bank Transfer,USA,Deborah Cohen
+2668,2024-06-16,Mantenimiento Web,8,31.14,249.12,Credit Card,UK,Gerald Lopez
+3023,2024-06-13,Diseño Gráfico y Branding,40,40.31,1612.4,PayPal,USA,Jordan Morrison
+5617,2024-04-24,Consultoría en Diseño Web,48,95.77,4596.96,Credit Card,Germany,Michael Rodriguez
+8955,2024-05-11,Consultoría en Diseño Web,9,70.52,634.68,Bank Transfer,Australia,Valerie Gonzales
+7559,2024-06-17,Mantenimiento Web,37,127.55,4719.35,PayPal,UK,Morgan Roman
+6380,2024-02-05,Mantenimiento Web,31,138.13,4282.03,Bank Transfer,Canada,Sheila Sheppard
+6112,2024-08-16,Diseño Gráfico y Branding,25,30.87,771.75,PayPal,Canada,Andrea Jones
+3088,2024-08-13,Mantenimiento Web,30,131.64,3949.2,Credit Card,UK,Jamie Spencer
+7793,2024-02-02,Consultoría en Diseño Web,48,140.32,6735.36,Credit Card,USA,Roberto Love
+3238,2024-08-07,Mantenimiento Web,37,143.96,5326.52,Credit Card,USA,Carla Morgan
+3948,2024-05-08,Diseño Gráfico y Branding,48,66.16,3175.68,Credit Card,Canada,Joel George
+1562,2024-02-04,Desarrollo Web,22,79.61,1751.42,Bank Transfer,Canada,Nicole Barnes
+8661,2024-01-10,Desarrollo Web,41,60.69,2488.29,Credit Card,Germany,Krista Woodard
+7164,2024-02-19,Diseño Gráfico y Branding,21,83.58,1755.18,PayPal,Germany,Denise Delacruz
+3535,2024-07-07,Desarrollo Web,22,73.18,1609.96,PayPal,Australia,Patrick Padilla
+7786,2024-10-06,Mantenimiento Web,39,124.17,4842.63,Bank Transfer,Germany,Tara Long
+3080,2024-02-09,Consultoría en Diseño Web,27,140.55,3794.85,Credit Card,UK,Kyle Bennett
+2685,2024-03-27,Consultoría en Diseño Web,26,120.86,3142.36,Bank Transfer,Germany,Kevin Thompson
+4576,2024-01-07,Diseño Gráfico y Branding,31,64.53,2000.43,Bank Transfer,Australia,Gabrielle White
+2581,2024-04-04,Desarrollo Web,49,114.58,5614.42,Credit Card,UK,Bobby Strickland
+2540,2024-04-08,Desarrollo Web,13,101.1,1314.3,Credit Card,Germany,Erin Mcdaniel
+4391,2024-09-09,Mantenimiento Web,14,69.07,966.98,Bank Transfer,USA,James Flores
+4958,2024-04-15,Consultoría en Diseño Web,39,141.17,5505.63,PayPal,UK,Stacey Hunt
+9883,2024-02-05,Mantenimiento Web,30,98.45,2953.5,PayPal,Germany,Michelle Williams
+6532,2024-10-13,Diseño Gráfico y Branding,34,129.36,4398.24,Bank Transfer,Australia,David Edwards
+5351,2024-09-29,Mantenimiento Web,49,28.22,1382.78,PayPal,Canada,Carmen Hatfield
+9757,2024-04-24,Consultoría en Diseño Web,29,123.16,3571.64,PayPal,UK,Christina Chavez MD
+9781,2024-06-22,Mantenimiento Web,49,100.53,4925.97,Credit Card,Canada,Amanda Smith
+5734,2024-09-25,Consultoría en Diseño Web,9,149.25,1343.25,Credit Card,Canada,Julie Nelson
+6736,2024-08-06,Consultoría en Diseño Web,22,99.52,2189.44,PayPal,Canada,Joshua Smith
+8616,2024-05-01,Diseño Gráfico y Branding,25,75.28,1882.0,Credit Card,Germany,Stephen White
+5374,2024-01-15,Desarrollo Web,39,86.98,3392.22,Bank Transfer,Germany,Ashley Brown
+9352,2024-08-08,Mantenimiento Web,14,103.28,1445.92,Credit Card,Germany,Matthew Ray
+3154,2024-06-05,Mantenimiento Web,20,95.07,1901.4,Credit Card,USA,Anita Nguyen
+5322,2024-07-08,Mantenimiento Web,24,84.45,2026.8,Credit Card,Germany,Cheryl Phillips
+1584,2024-10-21,Desarrollo Web,27,97.0,2619.0,Credit Card,Canada,Brian Grant
+9360,2024-01-21,Consultoría en Diseño Web,23,66.34,1525.82,Bank Transfer,USA,Christian Gonzalez
+6969,2024-04-14,Desarrollo Web,50,61.88,3094.0,Credit Card,Canada,Nancy Lee
+1446,2024-09-19,Diseño Gráfico y Branding,50,51.64,2582.0,Credit Card,USA,Lisa Stewart
+1611,2024-01-01,Desarrollo Web,24,39.85,956.4,Credit Card,Germany,Timothy Jenkins
+6142,2024-10-04,Mantenimiento Web,45,99.36,4471.2,Bank Transfer,UK,Shawn Bryant
+7448,2024-04-08,Consultoría en Diseño Web,36,80.07,2882.52,Bank Transfer,Canada,Jeffrey Terry
+7022,2024-02-16,Consultoría en Diseño Web,6,131.3,787.8,PayPal,Australia,Megan Holland
+4038,2024-05-27,Consultoría en Diseño Web,25,40.3,1007.5,PayPal,Germany,Victoria Snyder
+1480,2024-07-21,Diseño Gráfico y Branding,13,54.22,704.86,Bank Transfer,UK,Sheila Mcclure
+3546,2024-01-15,Consultoría en Diseño Web,20,30.23,604.6,Bank Transfer,UK,Tara House
+1055,2024-09-22,Diseño Gráfico y Branding,15,102.23,1533.45,PayPal,USA,John Poole
+3448,2024-05-20,Diseño Gráfico y Branding,19,66.24,1258.56,PayPal,USA,Rachel Duke
+9197,2024-10-10,Diseño Gráfico y Branding,25,96.0,2400.0,PayPal,Germany,Penny Morales
+2402,2024-01-02,Desarrollo Web,11,44.87,493.57,PayPal,Germany,Christopher Miranda
+8613,2024-05-18,Consultoría en Diseño Web,24,50.7,1216.8,Credit Card,Germany,Nancy Austin
+5407,2024-06-03,Diseño Gráfico y Branding,40,95.93,3837.2,Credit Card,Australia,Ian Tyler
+9506,2024-05-17,Mantenimiento Web,36,99.6,3585.6,PayPal,Canada,Philip Mayo
+1897,2024-06-05,Desarrollo Web,17,122.15,2076.55,Credit Card,Germany,Leslie Roberts
+4128,2024-03-18,Consultoría en Diseño Web,22,58.42,1285.24,Bank Transfer,Germany,Dan Luna
+3457,2024-06-17,Consultoría en Diseño Web,14,126.53,1771.42,Bank Transfer,USA,Jessica Allen
+7472,2024-06-02,Mantenimiento Web,12,135.03,1620.36,PayPal,UK,Shelly Gray
+1665,2024-05-13,Diseño Gráfico y Branding,13,69.64,905.32,PayPal,Germany,Alejandro Cole
+2151,2024-06-07,Consultoría en Diseño Web,22,27.77,610.94,Credit Card,Germany,Glenn Duarte
+9562,2024-09-10,Desarrollo Web,50,141.1,7055.0,Bank Transfer,UK,James Velasquez
+9452,2024-04-18,Consultoría en Diseño Web,43,40.3,1732.9,PayPal,Australia,Steven Hall
+5295,2024-10-09,Mantenimiento Web,33,89.8,2963.4,Bank Transfer,Australia,Crystal Trujillo
+8247,2024-05-23,Desarrollo Web,46,125.95,5793.7,Credit Card,USA,Kevin Bush
+5082,2024-09-09,Mantenimiento Web,14,90.14,1261.96,PayPal,Germany,Larry Parker
+4930,2024-10-14,Diseño Gráfico y Branding,15,79.22,1188.3,PayPal,Canada,Sally Walker
+1734,2024-03-22,Consultoría en Diseño Web,39,123.92,4832.88,Bank Transfer,Germany,Bradley Jones
+5297,2024-05-30,Desarrollo Web,19,73.31,1392.89,Credit Card,Australia,Ellen Robinson
+4510,2024-05-13,Consultoría en Diseño Web,14,38.65,541.1,Credit Card,Canada,Megan Duncan
+7606,2024-01-29,Mantenimiento Web,18,133.25,2398.5,PayPal,USA,Nicholas Olson
+3907,2024-08-15,Desarrollo Web,13,87.89,1142.57,PayPal,Australia,Miss Joanna Davis MD
+4370,2024-07-06,Consultoría en Diseño Web,17,102.77,1747.09,PayPal,Germany,Clifford Jackson
+9694,2024-02-03,Mantenimiento Web,38,63.15,2399.7,Bank Transfer,Australia,Kathy Fuller
+1658,2024-03-19,Diseño Gráfico y Branding,7,84.65,592.55,Bank Transfer,UK,Matthew Cruz
+1891,2024-06-16,Consultoría en Diseño Web,10,119.96,1199.6,PayPal,Germany,Jordan Thomas
+9638,2024-08-24,Diseño Gráfico y Branding,31,58.71,1820.01,PayPal,UK,Adam Riley
+2897,2024-04-07,Consultoría en Diseño Web,37,43.66,1615.42,Credit Card,UK,Sarah Hays
+1468,2024-03-25,Mantenimiento Web,49,38.19,1871.31,PayPal,Canada,Gary Williams Jr.
+6128,2024-09-26,Diseño Gráfico y Branding,34,83.25,2830.5,Credit Card,USA,Robin Smith
+1160,2024-01-08,Mantenimiento Web,29,136.77,3966.33,Bank Transfer,Australia,Amy Allen
+9724,2024-06-17,Diseño Gráfico y Branding,41,91.73,3760.93,Bank Transfer,Canada,Gregory Franco
+6135,2024-06-01,Diseño Gráfico y Branding,42,32.48,1364.16,PayPal,Australia,Sandra Torres
+1287,2024-07-24,Desarrollo Web,8,79.67,637.36,PayPal,Germany,Lindsay Neal
+7940,2024-10-12,Desarrollo Web,18,79.17,1425.06,Credit Card,Germany,Jose Brown
+4288,2024-02-23,Desarrollo Web,31,32.45,1005.95,Bank Transfer,UK,Dustin Irwin
+7863,2024-02-17,Mantenimiento Web,41,33.5,1373.5,Bank Transfer,USA,Michael Ray
+2985,2024-06-23,Diseño Gráfico y Branding,41,110.04,4511.64,Credit Card,UK,Tina Rangel
+3846,2024-03-14,Consultoría en Diseño Web,32,77.83,2490.56,Bank Transfer,Germany,Brian Mays
+9154,2024-06-03,Mantenimiento Web,5,91.73,458.65,Bank Transfer,UK,Timothy Johnson
+7967,2024-09-29,Diseño Gráfico y Branding,38,100.12,3804.56,Credit Card,Canada,Charles Martin
+6539,2024-01-27,Diseño Gráfico y Branding,48,127.79,6133.92,Bank Transfer,Canada,Carmen Ford
+9327,2024-03-31,Mantenimiento Web,34,102.52,3485.68,Bank Transfer,UK,Miranda Bell
+9943,2024-02-11,Desarrollo Web,8,86.47,691.76,PayPal,Germany,Nancy Simmons
+3251,2024-10-13,Diseño Gráfico y Branding,40,25.13,1005.2,Credit Card,USA,Eric Rodriguez
+6733,2024-10-02,Mantenimiento Web,16,125.83,2013.28,Bank Transfer,Germany,Valerie Clark
+8978,2024-07-02,Mantenimiento Web,44,110.63,4867.72,Credit Card,USA,Kevin Sanchez
+7407,2024-01-12,Consultoría en Diseño Web,50,96.87,4843.5,PayPal,Australia,Sally Butler
+5500,2024-01-15,Desarrollo Web,27,60.12,1623.24,PayPal,Canada,Lisa George
+2950,2024-06-29,Diseño Gráfico y Branding,44,42.48,1869.12,Credit Card,Canada,Michael Murphy
+9116,2024-04-27,Mantenimiento Web,17,143.34,2436.78,Bank Transfer,Australia,Emily Hall
+4679,2024-01-05,Mantenimiento Web,46,136.77,6291.42,PayPal,Australia,Victoria Mcdonald
+8749,2024-02-16,Mantenimiento Web,40,131.48,5259.2,PayPal,Australia,Justin Payne
+5254,2024-03-04,Desarrollo Web,28,118.18,3309.04,PayPal,Australia,Sharon Tyler
+9945,2024-02-02,Mantenimiento Web,28,109.5,3066.0,Credit Card,UK,Jennifer Gonzalez
+8309,2024-06-15,Diseño Gráfico y Branding,21,146.4,3074.4,Bank Transfer,USA,Shane Vasquez
+2636,2024-07-04,Diseño Gráfico y Branding,20,131.43,2628.6,Bank Transfer,Germany,James Gregory
+6055,2024-01-05,Mantenimiento Web,48,36.41,1747.68,PayPal,Germany,Alexandra Kerr
+6837,2024-02-17,Consultoría en Diseño Web,33,133.07,4391.31,Bank Transfer,USA,Patricia Buck
+7483,2024-10-16,Consultoría en Diseño Web,17,40.93,695.81,Bank Transfer,USA,Dominique Robinson
+4497,2024-09-17,Desarrollo Web,17,113.22,1924.74,Bank Transfer,UK,James Trujillo
+9148,2024-02-26,Diseño Gráfico y Branding,26,108.56,2822.56,PayPal,Australia,Jacob Miller
+7340,2024-01-05,Desarrollo Web,37,58.09,2149.33,Credit Card,Canada,Dr. Tara Leonard
+9635,2024-07-21,Consultoría en Diseño Web,28,135.16,3784.48,Credit Card,USA,Jimmy Lee
+6394,2024-05-13,Mantenimiento Web,17,47.92,814.64,PayPal,UK,Nicole Kramer
+1140,2024-02-01,Diseño Gráfico y Branding,18,129.44,2329.92,Credit Card,USA,Kimberly Holloway
+9261,2024-08-31,Consultoría en Diseño Web,37,54.59,2019.83,Credit Card,Australia,Amber Coleman
+5874,2024-07-28,Desarrollo Web,27,98.65,2663.55,Credit Card,Germany,Kenneth Cannon
+3988,2024-06-14,Desarrollo Web,34,70.64,2401.76,Credit Card,Canada,Kathryn Santana
+9528,2024-09-09,Mantenimiento Web,44,54.25,2387.0,Credit Card,USA,Danny Crane
+2706,2024-03-24,Desarrollo Web,48,99.8,4790.4,Credit Card,Canada,Jeffrey Hurst
+1822,2024-09-30,Desarrollo Web,20,82.62,1652.4,Credit Card,Australia,Morgan Watson
+9401,2024-02-29,Desarrollo Web,5,127.17,635.85,PayPal,Canada,Justin Carlson
+5940,2024-09-13,Diseño Gráfico y Branding,5,97.34,486.7,Bank Transfer,Germany,Kevin Galvan
+2250,2024-01-16,Diseño Gráfico y Branding,37,38.29,1416.73,Credit Card,Canada,Kimberly Carr DDS
+5256,2024-09-14,Consultoría en Diseño Web,48,103.1,4948.8,Credit Card,Germany,Matthew Thompson
+1285,2024-10-21,Diseño Gráfico y Branding,8,83.76,670.08,Credit Card,Australia,Maria King
+4170,2024-01-15,Mantenimiento Web,18,60.75,1093.5,Credit Card,Australia,Jeffrey Watkins
+6058,2024-06-07,Consultoría en Diseño Web,12,98.46,1181.52,PayPal,Canada,Louis Davis
+8890,2024-07-31,Desarrollo Web,13,145.55,1892.15,Bank Transfer,Germany,Janet Randall
+5983,2024-08-13,Diseño Gráfico y Branding,14,134.42,1881.88,Bank Transfer,Australia,Christopher Knox
+2601,2024-03-17,Diseño Gráfico y Branding,20,135.95,2719.0,PayPal,Germany,David Kennedy DDS
+3840,2024-03-10,Desarrollo Web,18,147.13,2648.34,PayPal,UK,April Mueller
+3445,2024-06-09,Desarrollo Web,42,82.91,3482.22,PayPal,Australia,Donna Hull
+6008,2024-09-16,Diseño Gráfico y Branding,20,70.93,1418.6,PayPal,Australia,Annette Simpson
+8803,2024-09-23,Diseño Gráfico y Branding,8,86.02,688.16,Credit Card,USA,Breanna Bradley
+4115,2024-02-01,Mantenimiento Web,9,144.81,1303.29,Credit Card,Australia,Teresa Burton
+4717,2024-04-17,Consultoría en Diseño Web,36,65.46,2356.56,Credit Card,Germany,Jeffrey Jackson
+3142,2024-04-03,Consultoría en Diseño Web,32,52.82,1690.24,Credit Card,USA,Julie Roy
+2476,2024-07-30,Mantenimiento Web,16,90.36,1445.76,PayPal,Australia,Joshua Jensen
+4596,2024-08-05,Consultoría en Diseño Web,37,83.78,3099.86,PayPal,USA,William Mendez
+1298,2024-03-04,Diseño Gráfico y Branding,11,40.39,444.29,Bank Transfer,Canada,Sarah Ross
+9785,2024-08-12,Desarrollo Web,42,65.31,2743.02,Credit Card,USA,Melanie Chambers
+9500,2024-06-03,Mantenimiento Web,38,108.41,4119.58,Bank Transfer,UK,Angela Nichols
+1365,2024-02-08,Desarrollo Web,24,65.51,1572.24,Bank Transfer,Australia,Deanna Parrish
+9494,2024-04-20,Desarrollo Web,44,94.64,4164.16,PayPal,Canada,Rachael Cannon
+7243,2024-02-12,Diseño Gráfico y Branding,28,141.14,3951.92,Credit Card,UK,Shawn Nelson
+1560,2024-02-21,Diseño Gráfico y Branding,14,114.02,1596.28,PayPal,UK,Rachel Blake
+2909,2024-05-15,Mantenimiento Web,9,78.24,704.16,PayPal,Canada,Laura King
+6508,2024-07-29,Mantenimiento Web,26,129.27,3361.02,PayPal,UK,David Walker
+2423,2024-02-27,Diseño Gráfico y Branding,50,138.43,6921.5,PayPal,Germany,Joseph Smith
+9884,2024-08-30,Desarrollo Web,14,59.42,831.88,Bank Transfer,Canada,Alicia Hill
+1166,2024-05-13,Mantenimiento Web,41,53.38,2188.58,Credit Card,UK,Bryce Peterson
+4069,2024-03-10,Desarrollo Web,38,87.06,3308.28,Bank Transfer,Germany,Andrew Coleman
+3106,2024-09-22,Consultoría en Diseño Web,29,69.47,2014.63,Credit Card,Australia,April Smith
+2836,2024-06-27,Consultoría en Diseño Web,34,77.04,2619.36,Bank Transfer,UK,Brett Long
+8500,2024-05-18,Consultoría en Diseño Web,37,93.45,3457.65,Credit Card,Australia,Elizabeth Nelson
+5530,2024-08-01,Consultoría en Diseño Web,37,71.4,2641.8,Credit Card,Canada,Erica Smith
+7671,2024-10-05,Diseño Gráfico y Branding,16,67.62,1081.92,PayPal,Australia,Bruce Sanders
+2493,2024-01-28,Consultoría en Diseño Web,23,26.4,607.2,Credit Card,UK,Mr. Nicholas Anderson
+5435,2024-05-04,Diseño Gráfico y Branding,24,32.52,780.48,PayPal,UK,Brian Russell
+1698,2024-08-23,Diseño Gráfico y Branding,26,143.58,3733.08,PayPal,USA,Rebecca Rogers
+1624,2024-08-26,Desarrollo Web,30,117.97,3539.1,Credit Card,Australia,Colin Miller
+4075,2024-03-18,Diseño Gráfico y Branding,26,117.07,3043.82,Bank Transfer,Australia,Miguel Eaton
+3378,2024-09-19,Consultoría en Diseño Web,23,138.94,3195.62,Credit Card,Australia,Renee Kennedy
+5027,2024-03-29,Mantenimiento Web,20,143.05,2861.0,PayPal,Australia,Richard Bowers
+1094,2024-03-28,Consultoría en Diseño Web,46,145.39,6687.94,PayPal,Canada,Caitlyn Armstrong
+2473,2024-05-11,Desarrollo Web,40,119.31,4772.4,Bank Transfer,USA,Bobby Brown
+1309,2024-06-09,Desarrollo Web,35,90.82,3178.7,PayPal,Germany,Shelby Davis
+7099,2024-08-24,Diseño Gráfico y Branding,32,83.13,2660.16,Credit Card,Canada,Jack Higgins
+9342,2024-05-02,Mantenimiento Web,29,92.78,2690.62,Credit Card,Germany,Stephanie Clark
+6027,2024-06-30,Mantenimiento Web,16,88.15,1410.4,PayPal,Australia,Jessica Montoya
+8407,2024-05-17,Diseño Gráfico y Branding,12,84.69,1016.28,Credit Card,Australia,Michael Simmons MD
+2087,2024-06-04,Mantenimiento Web,48,74.23,3563.04,Bank Transfer,Australia,Aaron Rodgers
+7725,2024-10-22,Diseño Gráfico y Branding,43,28.1,1208.3,PayPal,Canada,John Payne
+7303,2024-10-14,Mantenimiento Web,21,109.92,2308.32,Bank Transfer,Canada,Alice Nolan
+1120,2024-07-19,Mantenimiento Web,50,137.12,6856.0,Bank Transfer,Germany,Lori Gill
+7668,2024-10-04,Mantenimiento Web,16,82.32,1317.12,Credit Card,Australia,Chris Koch
+5017,2024-07-24,Consultoría en Diseño Web,23,136.32,3135.36,Credit Card,Canada,Christina Moore
+2447,2024-02-01,Mantenimiento Web,6,77.95,467.7,PayPal,USA,Whitney Moran
+2739,2024-02-11,Desarrollo Web,39,113.86,4440.54,Bank Transfer,Germany,Michael Young
+4465,2024-10-03,Consultoría en Diseño Web,28,112.18,3141.04,Credit Card,Germany,Kevin Murphy
+6450,2024-06-09,Diseño Gráfico y Branding,7,125.2,876.4,Credit Card,Australia,Richard Jones
+3566,2024-08-17,Desarrollo Web,37,140.55,5200.35,Credit Card,Canada,Elizabeth Turner
+7864,2024-05-04,Desarrollo Web,14,51.29,718.06,Credit Card,Canada,Robert Howard
+6656,2024-06-22,Consultoría en Diseño Web,14,26.24,367.36,PayPal,UK,Frank Brown
+9920,2024-07-10,Desarrollo Web,33,81.48,2688.84,Bank Transfer,Germany,Joe Sullivan
+7006,2024-09-13,Mantenimiento Web,14,110.0,1540.0,Bank Transfer,Australia,Matthew Chang
+3671,2024-05-14,Consultoría en Diseño Web,31,54.31,1683.61,Credit Card,Germany,William Schwartz
+1345,2024-07-18,Consultoría en Diseño Web,50,113.41,5670.5,Credit Card,USA,Adam Williams
+9386,2024-08-08,Consultoría en Diseño Web,42,35.39,1486.38,PayPal,USA,Sheryl Charles MD
+5792,2024-02-25,Diseño Gráfico y Branding,22,28.25,621.5,Credit Card,Canada,Rhonda Johnson
+3623,2024-08-21,Consultoría en Diseño Web,43,39.78,1710.54,Credit Card,Australia,Theresa Miller
+4793,2024-10-05,Mantenimiento Web,18,53.23,958.14,PayPal,Canada,Alyssa Rogers
+1128,2024-04-13,Consultoría en Diseño Web,22,110.37,2428.14,PayPal,Germany,Joshua Williams
+8427,2024-02-24,Diseño Gráfico y Branding,15,103.94,1559.1,Credit Card,USA,James Hernandez
+6043,2024-03-23,Desarrollo Web,16,146.57,2345.12,PayPal,UK,Lorraine Ingram
+5840,2024-04-04,Diseño Gráfico y Branding,16,36.14,578.24,PayPal,Germany,Steven Davis
+7341,2024-01-17,Mantenimiento Web,32,81.95,2622.4,PayPal,Australia,George Taylor
+7822,2024-07-29,Desarrollo Web,48,81.6,3916.8,PayPal,Australia,Samuel Flores
+2896,2024-05-17,Mantenimiento Web,49,96.56,4731.44,Bank Transfer,UK,Alex Case
+7246,2024-03-30,Consultoría en Diseño Web,39,144.12,5620.68,PayPal,UK,Mark Harrington
+3751,2024-07-30,Mantenimiento Web,19,77.28,1468.32,Bank Transfer,UK,Jenny Lane
+6865,2024-10-17,Consultoría en Diseño Web,15,122.62,1839.3,Credit Card,USA,Ashley Haney
+3939,2024-03-02,Diseño Gráfico y Branding,29,145.13,4208.77,Bank Transfer,Germany,Robert Taylor
+8809,2024-03-28,Consultoría en Diseño Web,38,32.66,1241.08,Bank Transfer,Australia,Garrett Weiss
+6408,2024-08-20,Diseño Gráfico y Branding,30,135.3,4059.0,Bank Transfer,Canada,Craig Berg
+8557,2024-10-16,Desarrollo Web,19,67.46,1281.74,Credit Card,Australia,Peter Gill
+7797,2024-01-18,Desarrollo Web,12,84.95,1019.4,PayPal,Australia,Peter Lee
+4028,2024-05-17,Diseño Gráfico y Branding,46,117.11,5387.06,PayPal,Australia,Jeffrey Holloway
+5095,2024-02-10,Mantenimiento Web,29,145.83,4229.07,Bank Transfer,Australia,Daniel Buckley
+4347,2024-04-15,Desarrollo Web,19,25.29,480.51,PayPal,Germany,Samuel Gardner
+1028,2024-08-13,Consultoría en Diseño Web,19,149.29,2836.51,PayPal,Australia,Elizabeth Wilson
+6034,2024-06-20,Consultoría en Diseño Web,29,55.64,1613.56,PayPal,Germany,Darryl Lee
+3117,2024-06-12,Desarrollo Web,9,42.98,386.82,Credit Card,UK,Robin Perez
+8979,2024-07-08,Consultoría en Diseño Web,25,132.79,3319.75,Bank Transfer,UK,Lisa Williams
+7420,2024-10-18,Desarrollo Web,25,123.46,3086.5,PayPal,USA,Sean Garza
+1069,2024-07-01,Desarrollo Web,31,62.73,1944.63,Bank Transfer,USA,Kevin King IV
+6845,2024-07-09,Diseño Gráfico y Branding,20,65.9,1318.0,Credit Card,Germany,Denise Lyons
+5501,2024-07-23,Desarrollo Web,27,35.53,959.31,Credit Card,Germany,Tina Haley
+7792,2024-02-18,Mantenimiento Web,9,118.94,1070.46,PayPal,Canada,Christian Day
+6531,2024-06-14,Consultoría en Diseño Web,33,26.87,886.71,PayPal,Canada,Ryan Woods
+4907,2024-08-23,Mantenimiento Web,27,84.76,2288.52,Credit Card,Germany,Jodi Williams
+1565,2024-02-20,Diseño Gráfico y Branding,16,27.09,433.44,Credit Card,USA,Angela Smith
+4260,2024-04-12,Mantenimiento Web,30,94.37,2831.1,PayPal,Australia,Corey Gonzalez
+7689,2024-10-03,Consultoría en Diseño Web,38,65.34,2482.92,Bank Transfer,Germany,Jamie Summers
+4873,2024-06-21,Desarrollo Web,49,60.9,2984.1,Bank Transfer,Germany,Richard Smith
+2643,2024-06-08,Mantenimiento Web,38,72.47,2753.86,PayPal,USA,Amanda Price
+8055,2024-09-21,Desarrollo Web,29,131.41,3810.89,PayPal,Germany,Jesse Ray
+4912,2024-02-29,Consultoría en Diseño Web,38,49.96,1898.48,Bank Transfer,Australia,Lauren Poole
+5206,2024-02-24,Consultoría en Diseño Web,29,48.6,1409.4,PayPal,Germany,Lauren Lopez
+7749,2024-08-03,Consultoría en Diseño Web,34,127.89,4348.26,Credit Card,Australia,Wanda Jones
+2427,2024-01-22,Consultoría en Diseño Web,40,64.46,2578.4,PayPal,USA,Anthony Arias
+8811,2024-04-11,Mantenimiento Web,6,67.12,402.72,Credit Card,UK,Amanda Bennett
+8161,2024-02-25,Mantenimiento Web,17,31.12,529.04,Bank Transfer,Germany,Allison Adams
+3007,2024-04-29,Desarrollo Web,23,55.95,1286.85,Bank Transfer,UK,Deborah Baker
+3500,2024-08-26,Consultoría en Diseño Web,32,51.92,1661.44,Credit Card,Germany,Michelle Reid
+2368,2024-04-27,Desarrollo Web,30,113.5,3405.0,Bank Transfer,UK,Christina Jackson
+6921,2024-07-31,Desarrollo Web,14,138.22,1935.08,PayPal,Canada,Sydney Richards
+5022,2024-04-06,Diseño Gráfico y Branding,11,102.77,1130.47,Credit Card,UK,Glenda Williamson
+6579,2024-08-27,Diseño Gráfico y Branding,21,34.28,719.88,Bank Transfer,Australia,Tina Johnson
+5098,2024-03-11,Desarrollo Web,48,115.52,5544.96,PayPal,Canada,Bradley Campbell
+3510,2024-07-22,Diseño Gráfico y Branding,47,143.27,6733.69,Bank Transfer,Germany,Tommy Sanders
+4862,2024-09-07,Desarrollo Web,49,57.65,2824.85,PayPal,UK,Brittany Mccullough
+4040,2024-04-13,Consultoría en Diseño Web,24,104.23,2501.52,Credit Card,Germany,Kyle Wilcox
+5992,2024-04-28,Desarrollo Web,6,141.74,850.44,Credit Card,USA,Michael Bernard
+5068,2024-07-20,Mantenimiento Web,22,28.51,627.22,PayPal,Germany,Andrea Travis
+1758,2024-07-02,Diseño Gráfico y Branding,44,34.25,1507.0,Bank Transfer,Australia,Denise Green
+8738,2024-02-10,Mantenimiento Web,35,52.41,1834.35,PayPal,UK,Chad Ramirez
+9619,2024-02-09,Diseño Gráfico y Branding,31,88.61,2746.91,Credit Card,Australia,Michael Bullock
+2612,2024-04-28,Diseño Gráfico y Branding,41,34.26,1404.66,Credit Card,USA,Mary Wilson
+1709,2024-05-18,Desarrollo Web,10,124.34,1243.4,PayPal,Australia,Sarah Klein
+3887,2024-04-24,Diseño Gráfico y Branding,36,105.59,3801.24,PayPal,UK,Linda Velez
+2352,2024-02-12,Consultoría en Diseño Web,25,147.29,3682.25,Bank Transfer,UK,Alexa Stevenson
+2941,2024-08-06,Diseño Gráfico y Branding,22,130.52,2871.44,Bank Transfer,USA,Victor Finley
+1244,2024-05-26,Consultoría en Diseño Web,36,32.1,1155.6,Credit Card,Germany,Sheryl Ray
+4095,2024-07-11,Consultoría en Diseño Web,43,89.82,3862.26,Bank Transfer,Canada,James Williams
+1960,2024-09-09,Diseño Gráfico y Branding,48,47.46,2278.08,PayPal,Australia,Madison Evans
+9348,2024-07-20,Mantenimiento Web,37,61.92,2291.04,Bank Transfer,Australia,Phillip Lane
+4770,2024-07-01,Mantenimiento Web,41,128.95,5286.95,PayPal,Germany,Jacob Adams
+8406,2024-04-15,Diseño Gráfico y Branding,30,146.73,4401.9,Credit Card,Canada,Paul Miller
+7494,2024-05-18,Consultoría en Diseño Web,33,96.2,3174.6,PayPal,Canada,Donald Gardner
+9085,2024-08-11,Desarrollo Web,45,40.07,1803.15,PayPal,USA,Jose Martin
+9040,2024-02-15,Desarrollo Web,31,119.82,3714.42,Bank Transfer,Germany,Robert Hubbard
+2569,2024-10-09,Diseño Gráfico y Branding,38,38.24,1453.12,PayPal,USA,Eric Harris
+2728,2024-01-22,Mantenimiento Web,20,45.68,913.6,PayPal,Germany,James Mcpherson
+9983,2024-10-09,Mantenimiento Web,36,40.34,1452.24,Bank Transfer,USA,Mark Perez
+3508,2024-09-12,Consultoría en Diseño Web,40,114.63,4585.2,Bank Transfer,UK,Travis Hudson
+4814,2024-10-22,Consultoría en Diseño Web,41,103.7,4251.7,PayPal,Germany,Lori Larson
+1095,2024-04-02,Consultoría en Diseño Web,27,128.16,3460.32,Bank Transfer,Germany,Paul Harvey
+6418,2024-09-02,Desarrollo Web,13,130.87,1701.31,Bank Transfer,Germany,Anthony Lopez
+3841,2024-08-28,Desarrollo Web,19,137.49,2612.31,Bank Transfer,UK,Isabel Clark
+8347,2024-03-25,Mantenimiento Web,28,64.18,1797.04,PayPal,Germany,Andrea Smith
+3212,2024-05-12,Diseño Gráfico y Branding,17,37.9,644.3,PayPal,Canada,Richard Oconnor
+8618,2024-01-29,Mantenimiento Web,49,71.2,3488.8,Bank Transfer,Germany,Matthew Barr
+7441,2024-02-28,Diseño Gráfico y Branding,10,47.39,473.9,Credit Card,Australia,Linda Woodward
+6413,2024-04-05,Consultoría en Diseño Web,50,33.1,1655.0,PayPal,USA,Donald Wilkerson
+8127,2024-10-22,Mantenimiento Web,46,72.9,3353.4,PayPal,Germany,Dennis Smith
+7332,2024-03-09,Diseño Gráfico y Branding,21,128.01,2688.21,PayPal,Canada,Rachel Cordova
+9501,2024-04-10,Diseño Gráfico y Branding,15,62.68,940.2,PayPal,UK,Alicia Grimes
+4676,2024-09-27,Desarrollo Web,12,78.5,942.0,Bank Transfer,Canada,Tyler Montes
+7129,2024-09-02,Mantenimiento Web,19,64.42,1223.98,PayPal,UK,Jacqueline Gomez
+6420,2024-02-22,Diseño Gráfico y Branding,25,85.04,2126.0,PayPal,UK,Rebecca Smith
+8105,2024-08-16,Diseño Gráfico y Branding,33,25.9,854.7,Credit Card,UK,Anthony Flynn
+1844,2024-01-25,Consultoría en Diseño Web,38,62.56,2377.28,PayPal,USA,Jeffrey Whitehead
+9680,2024-09-13,Diseño Gráfico y Branding,7,143.02,1001.14,PayPal,UK,Joyce Stanton
+8303,2024-05-27,Mantenimiento Web,13,142.34,1850.42,PayPal,USA,Logan Mason
+2397,2024-10-18,Mantenimiento Web,7,53.93,377.51,Bank Transfer,Canada,Robert Jones
+7976,2024-01-29,Consultoría en Diseño Web,21,130.73,2745.33,PayPal,UK,Caleb Smith
+5015,2024-02-18,Consultoría en Diseño Web,13,146.68,1906.84,PayPal,USA,Christopher Moore
+7182,2024-03-03,Consultoría en Diseño Web,41,105.46,4323.86,PayPal,Canada,Kevin Tate
+6934,2024-02-29,Consultoría en Diseño Web,15,138.49,2077.35,Credit Card,USA,Ashley Wilson
+4210,2024-07-04,Desarrollo Web,44,27.12,1193.28,PayPal,USA,Travis Lewis
+5433,2024-10-12,Consultoría en Diseño Web,37,93.72,3467.64,PayPal,Australia,Luis Ortiz
+6044,2024-01-21,Diseño Gráfico y Branding,22,120.15,2643.3,Credit Card,UK,Timothy Santiago
+7916,2024-04-04,Mantenimiento Web,11,96.11,1057.21,PayPal,UK,Lisa Davis
+6069,2024-10-15,Mantenimiento Web,36,140.44,5055.84,Credit Card,Canada,Dale Guerrero
+7944,2024-05-16,Desarrollo Web,20,47.91,958.2,Bank Transfer,USA,Nicole Gonzalez
+2475,2024-06-23,Diseño Gráfico y Branding,30,103.12,3093.6,PayPal,Germany,Justin Morrison
+6488,2024-07-23,Diseño Gráfico y Branding,21,137.66,2890.86,Bank Transfer,Australia,Taylor Roman
+8847,2024-07-02,Mantenimiento Web,14,113.0,1582.0,PayPal,Canada,Emily Jenkins
+1995,2024-03-20,Diseño Gráfico y Branding,35,125.11,4378.85,Bank Transfer,Germany,Mary Liu
+2108,2024-03-31,Mantenimiento Web,31,43.44,1346.64,Credit Card,Canada,John Baker
+1003,2024-05-24,Mantenimiento Web,29,135.84,3939.36,Bank Transfer,USA,Mr. Cody Arnold DDS
+7266,2024-06-23,Desarrollo Web,36,97.2,3499.2,PayPal,UK,Kristina Simpson
+4029,2024-02-13,Consultoría en Diseño Web,49,35.78,1753.22,PayPal,Canada,Michael Jimenez
+3324,2024-04-19,Diseño Gráfico y Branding,29,98.06,2843.74,Credit Card,UK,David Davis
+2653,2024-04-29,Consultoría en Diseño Web,32,30.96,990.72,Bank Transfer,Australia,Michelle Howard
+8438,2024-10-16,Consultoría en Diseño Web,5,97.63,488.15,Bank Transfer,Germany,David Holland
+8565,2024-03-16,Mantenimiento Web,30,35.26,1057.8,PayPal,Australia,Patricia Bell
+7155,2024-02-23,Desarrollo Web,9,110.5,994.5,Bank Transfer,Australia,Christopher Garrett MD
+8851,2024-05-01,Diseño Gráfico y Branding,37,57.49,2127.13,Credit Card,Germany,Kimberly Tanner
+8037,2024-03-24,Consultoría en Diseño Web,36,67.55,2431.8,PayPal,Canada,William Kennedy
+4552,2024-05-15,Mantenimiento Web,50,122.18,6109.0,Bank Transfer,USA,Debra Stein
+3406,2024-07-26,Desarrollo Web,18,133.99,2411.82,Credit Card,Germany,Tracy Hunter
+9511,2024-01-12,Desarrollo Web,26,141.94,3690.44,Credit Card,USA,Vincent Miller
+8546,2024-09-24,Desarrollo Web,21,112.8,2368.8,PayPal,USA,Kaylee Rodriguez
+2892,2024-09-01,Mantenimiento Web,37,115.37,4268.69,PayPal,Canada,Donna Perez MD
+3991,2024-03-03,Diseño Gráfico y Branding,32,148.63,4756.16,Credit Card,USA,Brandon Harrison
+9411,2024-07-18,Consultoría en Diseño Web,7,141.49,990.43,PayPal,USA,Natasha Walker
+4166,2024-02-02,Diseño Gráfico y Branding,24,52.79,1266.96,Bank Transfer,Canada,Justin Tate MD
+9778,2024-05-22,Mantenimiento Web,10,35.53,355.3,Bank Transfer,Germany,Micheal Myers
+3464,2024-10-19,Consultoría en Diseño Web,20,53.26,1065.2,PayPal,Germany,Brian Wade
+2403,2024-03-11,Diseño Gráfico y Branding,47,63.52,2985.44,PayPal,Germany,Kyle Frost
+8154,2024-03-07,Consultoría en Diseño Web,22,64.67,1422.74,PayPal,Australia,Jacqueline Morris
+1810,2024-05-05,Mantenimiento Web,31,102.46,3176.26,Credit Card,Germany,Alexis Brown
+6079,2024-09-23,Diseño Gráfico y Branding,43,61.36,2638.48,Bank Transfer,UK,Jose Evans
+3019,2024-08-25,Diseño Gráfico y Branding,18,65.15,1172.7,PayPal,UK,Deborah Buchanan
+6466,2024-10-14,Consultoría en Diseño Web,6,60.03,360.18,Bank Transfer,UK,William Fox
+3776,2024-03-06,Diseño Gráfico y Branding,30,32.63,978.9,Credit Card,Australia,Peggy Taylor
+8433,2024-01-07,Consultoría en Diseño Web,46,99.04,4555.84,Bank Transfer,Canada,Mary Orozco
+6701,2024-01-07,Diseño Gráfico y Branding,38,119.2,4529.6,Credit Card,Australia,Kelsey Jones
+7573,2024-08-28,Diseño Gráfico y Branding,24,74.25,1782.0,Bank Transfer,USA,Olivia Carlson
+5912,2024-02-13,Desarrollo Web,38,88.69,3370.22,Credit Card,Australia,Andrew Brown
+7902,2024-02-09,Mantenimiento Web,9,67.15,604.35,PayPal,Canada,John Zimmerman
+8558,2024-05-27,Mantenimiento Web,35,104.52,3658.2,Credit Card,Australia,Christina Stephens
+2052,2024-04-17,Consultoría en Diseño Web,35,117.28,4104.8,Bank Transfer,Canada,Carlos Johnson
+3523,2024-10-14,Consultoría en Diseño Web,16,132.49,2119.84,PayPal,UK,Sheryl Griffin
+8971,2024-04-20,Diseño Gráfico y Branding,20,134.59,2691.8,PayPal,Germany,Erik Miller
+6584,2024-01-29,Diseño Gráfico y Branding,10,55.22,552.2,PayPal,Canada,Alexander Barron
+8921,2024-03-02,Mantenimiento Web,39,100.71,3927.69,Credit Card,UK,Erik Donaldson
+6912,2024-04-27,Consultoría en Diseño Web,5,103.62,518.1,PayPal,USA,Amanda Guerrero
+4681,2024-01-02,Desarrollo Web,27,27.92,753.84,Bank Transfer,Canada,Robert Cruz
+5759,2024-03-30,Mantenimiento Web,45,38.23,1720.35,PayPal,Australia,Lori Rose
+3627,2024-05-29,Diseño Gráfico y Branding,33,40.17,1325.61,Bank Transfer,Australia,Jessica Ward
+3719,2024-09-24,Consultoría en Diseño Web,17,29.18,496.06,Credit Card,Australia,Nancy Garcia
+2851,2024-09-21,Diseño Gráfico y Branding,35,61.38,2148.3,PayPal,Germany,Zachary Sanchez
+7830,2024-06-10,Mantenimiento Web,6,74.88,449.28,Credit Card,UK,Charles Webb
+8737,2024-09-28,Desarrollo Web,5,63.25,316.25,Credit Card,Germany,Eric Walton
+8000,2024-01-01,Diseño Gráfico y Branding,49,51.14,2505.86,Bank Transfer,Australia,Billy Howard
+7647,2024-08-27,Mantenimiento Web,13,70.61,917.93,PayPal,Canada,Denise Gordon
+3989,2024-01-22,Mantenimiento Web,9,86.4,777.6,Bank Transfer,Germany,Jacob White
+6196,2024-03-01,Consultoría en Diseño Web,9,51.15,460.35,Bank Transfer,Canada,Deborah Shaffer
+6857,2024-01-27,Mantenimiento Web,45,119.28,5367.6,Credit Card,Australia,Amanda Brown
+2534,2024-01-19,Mantenimiento Web,6,96.37,578.22,Credit Card,Canada,Eric Moss
+8363,2024-02-16,Mantenimiento Web,42,104.29,4380.18,PayPal,USA,Michael Sims
+8476,2024-05-10,Mantenimiento Web,5,57.18,285.9,Credit Card,UK,Adam Sanders
+8683,2024-01-13,Mantenimiento Web,25,32.48,812.0,PayPal,Australia,Thomas Horton
+8571,2024-06-14,Consultoría en Diseño Web,17,31.63,537.71,PayPal,Australia,Dennis Oconnor
+8248,2024-02-10,Consultoría en Diseño Web,37,42.75,1581.75,PayPal,Canada,John Ross
+7385,2024-03-26,Desarrollo Web,19,39.63,752.97,PayPal,Canada,Jennifer Williams
+4817,2024-03-20,Mantenimiento Web,46,135.86,6249.56,Credit Card,UK,Brian Salinas
+9181,2024-05-01,Diseño Gráfico y Branding,16,138.1,2209.6,PayPal,Canada,Gregory Vega
+5797,2024-07-11,Consultoría en Diseño Web,12,39.51,474.12,PayPal,UK,Margaret Hines
+6688,2024-02-16,Consultoría en Diseño Web,33,105.33,3475.89,PayPal,Germany,Raven Turner
+4812,2024-05-08,Diseño Gráfico y Branding,28,117.74,3296.72,PayPal,UK,Heather Gaines
+1715,2024-09-15,Consultoría en Diseño Web,22,39.49,868.78,Bank Transfer,Australia,Sally Edwards
+1944,2024-08-15,Diseño Gráfico y Branding,40,67.42,2696.8,Credit Card,Canada,Katherine Sullivan
+2459,2024-05-11,Consultoría en Diseño Web,24,138.42,3322.08,Bank Transfer,UK,Amanda Griffin
+3100,2024-07-28,Mantenimiento Web,8,88.79,710.32,Credit Card,Australia,Bradley Berger
+6801,2024-05-05,Mantenimiento Web,5,121.1,605.5,PayPal,USA,Shawn Kirk
+7831,2024-07-13,Consultoría en Diseño Web,40,148.53,5941.2,Credit Card,Germany,Thomas Trujillo
+8723,2024-06-16,Consultoría en Diseño Web,17,100.83,1714.11,Credit Card,Canada,Anna Murray DVM
+9774,2024-04-18,Mantenimiento Web,36,30.94,1113.84,Bank Transfer,Germany,Lisa Fernandez
+2645,2024-01-05,Desarrollo Web,38,102.85,3908.3,PayPal,Canada,Cody Wells
+1104,2024-07-24,Mantenimiento Web,45,66.22,2979.9,Bank Transfer,UK,Jeffrey Smith
+3782,2024-03-15,Desarrollo Web,32,125.24,4007.68,Credit Card,Canada,Danielle Farmer MD
+9034,2024-06-11,Consultoría en Diseño Web,32,25.98,831.36,Credit Card,Germany,Dr. Lauren Fuller MD
+8991,2024-05-02,Consultoría en Diseño Web,49,139.63,6841.87,Bank Transfer,Germany,Robert Allen
+4063,2024-09-24,Mantenimiento Web,32,49.94,1598.08,Bank Transfer,Canada,James Hanson
+7678,2024-02-01,Mantenimiento Web,46,123.28,5670.88,Bank Transfer,USA,Samantha Peck
+9162,2024-09-20,Desarrollo Web,28,74.14,2075.92,PayPal,Germany,Dustin Strickland
+3112,2024-08-30,Consultoría en Diseño Web,17,125.26,2129.42,Bank Transfer,UK,James Price
+4098,2024-10-07,Mantenimiento Web,34,91.92,3125.28,Bank Transfer,Germany,Patricia Castro
+3732,2024-10-06,Consultoría en Diseño Web,42,138.08,5799.36,Bank Transfer,Canada,Sonia Wright
+8233,2024-03-11,Desarrollo Web,49,75.22,3685.78,Bank Transfer,Canada,Brian Beasley
+9176,2024-03-14,Mantenimiento Web,32,148.54,4753.28,PayPal,USA,Steven Huffman
+6931,2024-07-04,Mantenimiento Web,23,106.65,2452.95,PayPal,Canada,Arthur Contreras
+1036,2024-09-15,Consultoría en Diseño Web,7,110.21,771.47,Bank Transfer,Canada,Sarah Hoffman
+8525,2024-10-13,Diseño Gráfico y Branding,17,89.72,1525.24,Credit Card,Germany,Jennifer Hooper
+4645,2024-04-15,Desarrollo Web,16,37.99,607.84,Credit Card,Canada,Nathaniel Davis
+8547,2024-09-23,Desarrollo Web,35,119.52,4183.2,PayPal,Canada,Sarah Miller
+2142,2024-09-07,Mantenimiento Web,24,78.35,1880.4,Credit Card,Canada,Zachary Bennett
+3229,2024-05-22,Diseño Gráfico y Branding,41,48.68,1995.88,PayPal,UK,David Potter
+1470,2024-03-21,Mantenimiento Web,19,44.72,849.68,Bank Transfer,USA,Daniel Lara
+5863,2024-05-12,Desarrollo Web,14,149.96,2099.44,PayPal,Australia,Bryan Zuniga
+5843,2024-02-19,Mantenimiento Web,50,31.49,1574.5,Bank Transfer,UK,Mary Harmon DDS
+3835,2024-08-18,Mantenimiento Web,49,80.19,3929.31,Bank Transfer,UK,Christopher Fisher
+3400,2024-04-03,Diseño Gráfico y Branding,32,81.84,2618.88,Bank Transfer,USA,Morgan Callahan
+2738,2024-03-25,Desarrollo Web,42,148.22,6225.24,PayPal,USA,Jessica Gibson
+4946,2024-08-06,Diseño Gráfico y Branding,9,142.15,1279.35,Credit Card,USA,Claudia Adams
+7669,2024-02-12,Desarrollo Web,5,121.84,609.2,PayPal,UK,Alexander Rogers
+5778,2024-06-09,Desarrollo Web,25,94.44,2361.0,PayPal,Germany,Bobby Griffin
+7693,2024-04-29,Desarrollo Web,29,133.18,3862.22,Credit Card,Canada,Charles Morales
+9862,2024-02-15,Consultoría en Diseño Web,31,132.73,4114.63,Credit Card,Canada,Jason White
+9431,2024-09-28,Consultoría en Diseño Web,5,61.15,305.75,Credit Card,Australia,Beverly Wong
+3601,2024-07-12,Mantenimiento Web,27,50.5,1363.5,PayPal,Canada,Brandon Brown
+7710,2024-08-31,Diseño Gráfico y Branding,16,78.1,1249.6,Credit Card,Canada,Charles Ward
+3764,2024-03-18,Diseño Gráfico y Branding,30,139.2,4176.0,PayPal,UK,Laurie Clayton
+5081,2024-07-27,Desarrollo Web,47,122.35,5750.45,Credit Card,USA,Rodney Smith
+3351,2024-07-30,Mantenimiento Web,36,126.96,4570.56,Credit Card,Australia,Martha Dyer
+5123,2024-06-24,Consultoría en Diseño Web,32,135.9,4348.8,Credit Card,Germany,Catherine Hunt
+7301,2024-07-12,Diseño Gráfico y Branding,11,33.31,366.41,Credit Card,Canada,Elizabeth Burns
+1300,2024-08-13,Desarrollo Web,33,42.6,1405.8,Credit Card,Canada,Mitchell Knight
+3000,2024-02-14,Desarrollo Web,49,72.8,3567.2,PayPal,USA,Michael Mccall
+6260,2024-09-22,Desarrollo Web,20,106.55,2131.0,Credit Card,UK,Anne Nichols
+9878,2024-04-29,Desarrollo Web,5,129.62,648.1,Bank Transfer,USA,Charles Gonzalez
+5865,2024-04-21,Desarrollo Web,6,104.54,627.24,Bank Transfer,Germany,Clayton Montoya
+9978,2024-03-29,Mantenimiento Web,35,61.8,2163.0,Credit Card,Australia,Joshua Martinez
+1189,2024-04-26,Mantenimiento Web,15,145.61,2184.15,PayPal,Australia,Amy Collins
+4625,2024-06-28,Mantenimiento Web,16,68.14,1090.24,Credit Card,Germany,Bradley Lane
+7133,2024-02-05,Mantenimiento Web,16,30.99,495.84,Bank Transfer,USA,Latoya Price
+8624,2024-03-26,Mantenimiento Web,17,109.99,1869.83,Bank Transfer,USA,Lauren Griffin
+8301,2024-09-05,Diseño Gráfico y Branding,22,32.71,719.62,Credit Card,USA,Daniel Robinson
+4036,2024-01-14,Desarrollo Web,10,29.25,292.5,Credit Card,Germany,Jordan Rivas
+5620,2024-07-21,Diseño Gráfico y Branding,34,47.74,1623.16,Bank Transfer,Australia,Shannon Flores
+5663,2024-09-08,Diseño Gráfico y Branding,48,126.94,6093.12,PayPal,Germany,Kaitlin Dodson
+9629,2024-04-18,Desarrollo Web,39,34.88,1360.32,Bank Transfer,Canada,Elizabeth Buckley
+9488,2024-07-06,Mantenimiento Web,23,35.86,824.78,Bank Transfer,USA,Victoria Thompson
+2517,2024-08-11,Desarrollo Web,20,40.73,814.6,Bank Transfer,Canada,Emily Gibson
+9388,2024-04-09,Consultoría en Diseño Web,21,77.68,1631.28,Credit Card,UK,Mr. Edward Lambert
+2036,2024-07-21,Desarrollo Web,43,143.57,6173.51,PayPal,Australia,Brittany Anderson
+2444,2024-05-03,Desarrollo Web,27,131.48,3549.96,Credit Card,Germany,Paula Simpson DDS
+5066,2024-04-24,Desarrollo Web,9,115.49,1039.41,Credit Card,USA,Andrew Schroeder
+1964,2024-06-13,Mantenimiento Web,21,42.24,887.04,PayPal,Canada,Jason Ayala
+5593,2024-06-26,Desarrollo Web,12,84.91,1018.92,PayPal,USA,Rachel Hudson
+1827,2024-02-17,Desarrollo Web,13,99.08,1288.04,PayPal,UK,Robert Smith
+8530,2024-06-28,Diseño Gráfico y Branding,10,94.92,949.2,Bank Transfer,Germany,Joshua Rodriguez
+3239,2024-04-09,Diseño Gráfico y Branding,21,46.84,983.64,Credit Card,USA,Sandra Reid
+6537,2024-06-08,Consultoría en Diseño Web,25,86.04,2151.0,PayPal,Germany,Zachary James
+4273,2024-03-06,Diseño Gráfico y Branding,25,144.05,3601.25,PayPal,Australia,Tara Johnson
+5641,2024-05-25,Consultoría en Diseño Web,10,116.14,1161.4,PayPal,Canada,Harold Jimenez
+6449,2024-02-13,Mantenimiento Web,47,133.16,6258.52,Credit Card,UK,Scott Palmer
+6440,2024-02-15,Desarrollo Web,10,62.45,624.5,Bank Transfer,Canada,Diana Cantu
+3165,2024-10-22,Mantenimiento Web,36,125.06,4502.16,Bank Transfer,USA,Tiffany Gordon
+1520,2024-10-05,Desarrollo Web,9,115.41,1038.69,PayPal,Australia,Alexis Salas
+9076,2024-02-15,Desarrollo Web,37,124.95,4623.15,Bank Transfer,Germany,Brianna Warren
+6365,2024-06-16,Desarrollo Web,43,54.09,2325.87,PayPal,UK,Cheryl Miller
+3880,2024-02-19,Diseño Gráfico y Branding,19,92.82,1763.58,Bank Transfer,Germany,Jeffrey Williams
+6234,2024-09-28,Diseño Gráfico y Branding,24,37.53,900.72,Bank Transfer,Australia,Jennifer Klein
+3765,2024-03-18,Mantenimiento Web,27,80.64,2177.28,PayPal,USA,Adam Watts
+1674,2024-10-09,Mantenimiento Web,45,87.63,3943.35,Bank Transfer,Australia,Megan Owens
+1972,2024-07-12,Consultoría en Diseño Web,37,110.46,4087.02,PayPal,Canada,Mariah Rivera
+7186,2024-02-28,Mantenimiento Web,37,50.18,1856.66,Credit Card,Canada,Angela Smith MD
+1430,2024-10-14,Desarrollo Web,22,76.35,1679.7,Credit Card,UK,Christian Bell
+7337,2024-08-07,Consultoría en Diseño Web,38,117.96,4482.48,Credit Card,USA,Elizabeth Monroe
+9820,2024-05-03,Consultoría en Diseño Web,27,146.01,3942.27,PayPal,USA,David Payne
+7179,2024-05-11,Diseño Gráfico y Branding,26,134.57,3498.82,PayPal,Germany,Angela Mcdonald
+7350,2024-05-30,Mantenimiento Web,15,79.31,1189.65,PayPal,Canada,Pamela Willis
+1479,2024-07-16,Mantenimiento Web,29,69.77,2023.33,Bank Transfer,Germany,Samantha Sullivan
+4849,2024-07-20,Mantenimiento Web,17,54.81,931.77,Bank Transfer,UK,David Andrews
+1301,2024-05-20,Consultoría en Diseño Web,26,30.86,802.36,Credit Card,Canada,Elaine Ortega
+1457,2024-03-22,Desarrollo Web,11,34.88,383.68,Bank Transfer,Australia,Catherine Clark
+3402,2024-02-16,Desarrollo Web,19,66.63,1265.97,Credit Card,UK,Karen Wolf
+4880,2024-02-09,Mantenimiento Web,18,125.53,2259.54,Bank Transfer,Canada,Donna Hill
+8156,2024-01-18,Diseño Gráfico y Branding,19,53.58,1018.02,Bank Transfer,UK,James Walls
+9795,2024-08-08,Diseño Gráfico y Branding,19,143.96,2735.24,PayPal,Australia,Nathan Russo
+4105,2024-09-17,Consultoría en Diseño Web,6,69.62,417.72,Credit Card,UK,Denise Brown
+7343,2024-10-17,Desarrollo Web,42,74.98,3149.16,Bank Transfer,Australia,Mr. Richard Rush DVM
+3867,2024-02-01,Mantenimiento Web,26,92.2,2397.2,Credit Card,USA,Samantha Clark
+4329,2024-02-22,Consultoría en Diseño Web,26,53.68,1395.68,PayPal,Canada,David Graves
+2755,2024-01-07,Mantenimiento Web,23,50.12,1152.76,Bank Transfer,Australia,Michael Ortiz
+6045,2024-10-05,Diseño Gráfico y Branding,37,28.87,1068.19,Credit Card,UK,John Collins
